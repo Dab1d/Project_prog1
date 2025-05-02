@@ -1,0 +1,3 @@
+open input/lion.png
+resize 0 0 500 760
+save output/resize1.png

@@ -1,0 +1,3 @@
+blank 400 400 255 0 0
+chain scrims/more-scrims/start1.scrim end
+save output/chain1.png

@@ -1,0 +1,5 @@
+open input/jungle.png
+chain
+  scrims/more-scrims/start1.scrim
+  scrims/more-scrims/loop.scrim
+  scrims/more-scrims/end3.scrim
