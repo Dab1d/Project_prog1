@@ -1,0 +1,7 @@
+blank 800 800 255 0 0
+chain
+  scrims/more-scrims/start1.scrim
+  scrims/more-scrims/loop.scrim
+  scrims/more-scrims/end2.scrim
+end
+save output/chain4.png

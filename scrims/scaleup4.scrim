@@ -1,0 +1,3 @@
+open input/lion.png
+scaleup 1 1
+save output/scaleup4.png

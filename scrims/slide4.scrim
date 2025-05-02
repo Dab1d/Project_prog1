@@ -1,0 +1,3 @@
+open input/lion.png
+slide 250 380
+save output/slide4.png

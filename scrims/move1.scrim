@@ -1,0 +1,3 @@
+open input/lion.png
+move 125 0
+save output/move1.png
