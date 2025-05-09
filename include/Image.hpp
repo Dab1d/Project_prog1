@@ -6,9 +6,11 @@
 
 namespace prog {
     class Image {
-    private:
-		// TODO: define private fields for image state
-    
+    int width_;
+    int height_;
+        std::vector<std::vector<Color>> cor;
+
+
 	public:
         Image(int w, int h, const Color &fill = {255, 255, 255});
 
