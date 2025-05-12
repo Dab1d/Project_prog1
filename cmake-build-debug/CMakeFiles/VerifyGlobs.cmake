@@ -10,6 +10,7 @@ set(OLD_GLOB
   "C:/Users/2006d/Desktop/project/src/Command/Blank.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/Open.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/Save.cpp"
+  "C:/Users/2006d/Desktop/project/src/Command/invert.cpp"
   "C:/Users/2006d/Desktop/project/src/Image.cpp"
   "C:/Users/2006d/Desktop/project/src/Logger.cpp"
   "C:/Users/2006d/Desktop/project/src/PNG.cpp"
