@@ -20,7 +20,7 @@ namespace prog {
     }
 
 
-    //Função que acessa o valor da cor, podendo ser alterado(mutado)
+    //Função que acessa o valor da cor, podendo ser alter\ado(mutado)
     Color &Image::at(int x, int y) {
 		return cor[y][x];
     }

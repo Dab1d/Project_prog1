@@ -1,6 +1,6 @@
 // feito pelo MegaMan(Tiago Ribeiro) en lo dia 12 del 5
 
-#include "Command/Slide.hpp"
+#include "Command/slide x y.hpp"
 
 namespace prog {
 
