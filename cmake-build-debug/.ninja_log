@@ -1,12 +1,13 @@
 # ninja log v6
 56	568	7685348377328650	CMakeFiles/tester.dir/src/Scrim.cpp.obj	a0ae168f182bff3e
-8	71	7687396828196935	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+4	39	7687905294540352	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+20	465	7688269803199885	build.ninja	b65504b3c5b00be8
 47	530	7678952191344539	CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj	a55c8a4157b1a9f5
 37	436	7678952191244524	CMakeFiles/runscrim.dir/src/Image.cpp.obj	544fc2c421fff0
 44	552	7678952191304543	CMakeFiles/runscrim.dir/src/Scrim.cpp.obj	7e6134487a0ff9f6
 23	434	7678952191104525	CMakeFiles/runscrim.dir/src/Color.cpp.obj	fe9caa9e123f80cb
-37	545	7685348377138695	CMakeFiles/tester.dir/src/Command.cpp.obj	d2046230916ed0d6
 25	451	7678952191124815	CMakeFiles/runscrim.dir/src/Command.cpp.obj	11719cbf4cc040b5
+20	350	7687902958459778	CMakeFiles/tester.dir/src/Command.cpp.obj	d2046230916ed0d6
 42	566	7678847625189200	CMakeFiles/runscrim.dir/src/Logger.cpp.obj	4d83ea0f40467e95
 28	438	7678952191144528	CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj	b93935a40d6ea58
 51	519	7678952191384529	CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj	b4620967e1f7f5b1
@@ -16,7 +17,7 @@
 40	793	7678952191274537	CMakeFiles/runscrim.dir/src/PNG.cpp.obj	5900ef985452bdfd
 793	902	7678952198801586	runscrim.exe	333d56acedc6bd19
 19	403	7679632875149123	CMakeFiles/tester.dir/src/Color.cpp.obj	d5737cb1da411cb9
-22	371	7687002029229362	CMakeFiles/tester.dir/src/Image.cpp.obj	7362984364ca849d
+28	396	7687902958533540	CMakeFiles/tester.dir/src/Image.cpp.obj	7362984364ca849d
 44	583	7679631866970288	CMakeFiles/tester.dir/src/Logger.cpp.obj	f6939181a812cbfd
 41	554	7685348377168638	CMakeFiles/tester.dir/src/Command/Blank.cpp.obj	279aa6c9eab2e1cd
 44	548	7685348377198665	CMakeFiles/tester.dir/src/Command/Open.cpp.obj	47a2d3db2d06caf1
@@ -25,5 +26,6 @@
 62	833	7679631867150289	CMakeFiles/tester.dir/src/Utils.cpp.obj	4a8112ce1ca02691
 53	903	7685348377298657	CMakeFiles/tester.dir/src/PNG.cpp.obj	1e862afa5741f4f4
 62	860	7685348377378656	CMakeFiles/tester.dir/main/Tester.cpp.obj	6208dc63afc16cb1
-371	530	7687002032720528	tester.exe	17fca85f8509a2bd
-2	19	7687579308124949	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+329	635	7687903501153478	tester.exe	ba5eb2de8908e6a9
+23	381	7687902958489609	CMakeFiles/tester.dir/src/Command/invert.cpp.obj	82e67eb8b026aaec
+21	329	7687903498064471	CMakeFiles/tester.dir/src/Command/slide_x_y.cpp.obj	a36de0d0d6d368d
