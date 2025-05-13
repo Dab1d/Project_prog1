@@ -10,11 +10,11 @@
 
 namespace prog {
     namespace command {
-        class Invert : public Command {
+        class invert : public Command {
         public:
-            Invert();
+            invert();
 
-            ~Invert();
+            ~invert();
 
             Image *apply(Image *img) override;
 
