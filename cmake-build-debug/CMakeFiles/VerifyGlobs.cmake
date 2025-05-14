@@ -10,7 +10,6 @@ set(OLD_GLOB
   "C:/Users/2006d/Desktop/project/src/Command/Blank.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/Open.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/Save.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Slide.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/invert.cpp"
   "C:/Users/2006d/Desktop/project/src/Command/to_gray_scale.cpp"
   "C:/Users/2006d/Desktop/project/src/Image.cpp"

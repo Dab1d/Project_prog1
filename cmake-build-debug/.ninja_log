@@ -1,13 +1,13 @@
 # ninja log v6
 56	568	7685348377328650	CMakeFiles/tester.dir/src/Scrim.cpp.obj	a0ae168f182bff3e
-2	19	7688448737725285	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
-36	246	7688460118207646	build.ninja	b65504b3c5b00be8
+4	32	7689351072494325	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+36	246	7689351082000781	build.ninja	b65504b3c5b00be8
 47	530	7678952191344539	CMakeFiles/runscrim.dir/src/ScrimParser.cpp.obj	a55c8a4157b1a9f5
 37	436	7678952191244524	CMakeFiles/runscrim.dir/src/Image.cpp.obj	544fc2c421fff0
 44	552	7678952191304543	CMakeFiles/runscrim.dir/src/Scrim.cpp.obj	7e6134487a0ff9f6
 23	434	7678952191104525	CMakeFiles/runscrim.dir/src/Color.cpp.obj	fe9caa9e123f80cb
-25	451	7678952191124815	CMakeFiles/runscrim.dir/src/Command.cpp.obj	11719cbf4cc040b5
 28	619	7688332396380930	CMakeFiles/tester.dir/src/Command.cpp.obj	d2046230916ed0d6
+25	451	7678952191124815	CMakeFiles/runscrim.dir/src/Command.cpp.obj	11719cbf4cc040b5
 42	566	7678847625189200	CMakeFiles/runscrim.dir/src/Logger.cpp.obj	4d83ea0f40467e95
 28	438	7678952191144528	CMakeFiles/runscrim.dir/src/Command/Blank.cpp.obj	b93935a40d6ea58
 51	519	7678952191384529	CMakeFiles/runscrim.dir/main/RunScrim.cpp.obj	b4620967e1f7f5b1
@@ -30,3 +30,12 @@
 22	315	7688435752862530	CMakeFiles/tester.dir/src/Command/invert.cpp.obj	82e67eb8b026aaec
 36	643	7688332396460936	CMakeFiles/tester.dir/src/Command/slide_x_y.cpp.obj	a36de0d0d6d368d
 22	336	7688448737926138	CMakeFiles/tester.dir/src/Command/Slide.cpp.obj	1ddc46a27de8f8cc
+33	1080	7689351082000781	build.ninja	b65504b3c5b00be8
+6	66	7689351083100527	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+98	433	7689351084026313	CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.obj	a112626b9f555f95
+76	2040	7689351083806409	CMakeFiles/tester.dir/src/Command.cpp.obj	d2046230916ed0d6
+87	2041	7689351083921040	CMakeFiles/tester.dir/src/Command/invert.cpp.obj	82e67eb8b026aaec
+109	2240	7689351084138015	CMakeFiles/tester.dir/src/Image.cpp.obj	7362984364ca849d
+3	28	7689351188342731	C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs	398399398ce441a0
+32	676	7689351188635951	CMakeFiles/tester.dir/src/ScrimParser.cpp.obj	751497b1df62867
+677	902	7689351195085020	tester.exe	6f5c1cd9bbc86ff
