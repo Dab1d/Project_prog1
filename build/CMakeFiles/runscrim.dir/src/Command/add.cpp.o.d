@@ -158,6 +158,5 @@ CMakeFiles/runscrim.dir/src/Command/add.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/megaman/Project_prog1/include/Image.hpp \
  /home/megaman/Project_prog1/include/Color.hpp \
  /home/megaman/Project_prog1/include/PNG.hpp

@@ -1,4 +1,4 @@
-// feito megaman dia 14 del5
+// feito por megaman dia 14 do 5
 
 #include "Command/add.hpp"
 #include "PNG.hpp"
@@ -6,49 +6,50 @@
 namespace prog {
     namespace command {
 
-        add::add(const std::string& fname, const Color& bg_color, int dx, int dy)
-            : Command("add"), fname(fname), bg_color(bg_color), dx(dx), dy(dy) {}
+        add::add(const std::string& filename, const Color& neutral, int x_offset, int y_offset)
+            : Command("add"), filename(filename), neutral_color(neutral),
+              x_offset(x_offset), y_offset(y_offset) {}
 
-        Image* add::apply(Image* base_img) {
-            Image* overlay_img = loadFromPNG(fname);
+        Image* add::apply(Image* img) {
+            Image* overlay_img = loadFromPNG(filename);
 
-            const int dest_w = base_img->width();
-            const int dest_h = base_img->height();
-            const int src_w = overlay_img->width();
-            const int src_h = overlay_img->height();
+            int dest_w = img->width();
+            int dest_h = img->height();
+            int src_w = overlay_img->width();
+            int src_h = overlay_img->height();
 
             for (int sy = 0; sy < src_h; ++sy) {
                 for (int sx = 0; sx < src_w; ++sx) {
-
                     const Color& current = overlay_img->at(sx, sy);
 
-                    // ve se a cor n é neutra
-                    if (!(current.red() == bg_color.red() &&
-                          current.green() == bg_color.green() &&
-                          current.blue() == bg_color.blue())) {
-
-                        int tx = dx + sx;
-                        int ty = dy + sy;
-
-                        // bascmente copia se tiver dentro da img destino
-                        if ((tx | ty) >= 0 && tx < dest_w && ty < dest_h) {
-                            base_img->at(tx, ty) = current;
+                    // ve se o pixel tem cor neutra
+                    if (current.red() == neutral_color.red() &&
+                        current.green() == neutral_color.green() &&
+                        current.blue() == neutral_color.blue()) {
+                        continue;
                         }
-                          }
+
+                    int tx = x_offset + sx;
+                    int ty = y_offset + sy;
+
+                    // so copia se tiver nos limites
+                    if (tx >= 0 && tx < dest_w && ty >= 0 && ty < dest_h) {
+                        img->at(tx, ty) = current;
+                    }
                 }
             }
 
             delete overlay_img;
-            return base_img;
+            return img;
         }
 
         std::string add::toString() const {
-            return "add " + fname + " " +
-                   std::to_string(bg_color.red()) + " " +
-                   std::to_string(bg_color.green()) + " " +
-                   std::to_string(bg_color.blue()) + " " +
-                   std::to_string(dx) + " " +
-                   std::to_string(dy);
+            return "add " + filename + " "
+                   + std::to_string(neutral_color.red()) + " "
+                   + std::to_string(neutral_color.green()) + " "
+                   + std::to_string(neutral_color.blue()) + " "
+                   + std::to_string(x_offset) + " "
+                   + std::to_string(y_offset);
         }
     }
 }
