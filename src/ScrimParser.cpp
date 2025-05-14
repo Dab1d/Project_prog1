@@ -8,7 +8,7 @@
 #include "Command/Open.hpp"
 #include "Logger.hpp"
 #include "Command/Invert.hpp"
-// #include "Command/Slide.hpp"
+#include "Command/slide.hpp"
 
 
 #include <fstream>
@@ -84,16 +84,17 @@ namespace prog {
             return new command::Open(filename);
         }
 
-        // if (command_name == "Slide") {
-        //     int x_offset;
-        //     int y_offset;
-        //     input >> x_offset >> y_offset;
-        //     return   new command::Slide(x_offset, y_offset);
-        // }
+        if (command_name == "slide") {
+            int x_offset;
+            int y_offset;
+            input >> x_offset >> y_offset;
+            return   new command::slide(x_offset, y_offset);
+        }
 
         if (command_name == "invert") {
             return new command::invert();
         }
+
 
         // TODO: implement cases for the new commands
 
