@@ -9,6 +9,7 @@
 #include "Logger.hpp"
 #include "Command/Invert.hpp"
 #include "Command/slide.hpp"
+#include "Command/add.hpp"
 
 
 #include <fstream>
@@ -95,6 +96,15 @@ namespace prog {
             return new command::invert();
         }
 
+        if (command_name == "add") {
+            std::string fname;
+            int red, green, blue;
+            int pos_x = 0, pos_y = 0;
+            input >> fname >> red >> green >> blue >> pos_x >> pos_y;
+            Color filter_color{red, green, blue};
+            auto* cmd = new command::add(fname, filter_color, pos_x, pos_y);
+            return cmd;
+        }
 
         // TODO: implement cases for the new commands
 

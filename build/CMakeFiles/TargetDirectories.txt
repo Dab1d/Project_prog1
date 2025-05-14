@@ -1,0 +1,5 @@
+/home/megaman/Project_prog1/build/CMakeFiles/runscrim.dir
+/home/megaman/Project_prog1/build/CMakeFiles/tester.dir
+/home/megaman/Project_prog1/build/CMakeFiles/delivery.dir
+/home/megaman/Project_prog1/build/CMakeFiles/edit_cache.dir
+/home/megaman/Project_prog1/build/CMakeFiles/rebuild_cache.dir
