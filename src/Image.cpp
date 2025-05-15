@@ -10,17 +10,18 @@ namespace prog {
     Image::~Image() {
     }
 
-    //
+    //retorna o valor largura da imagem
     int Image::width() const {
         return width_;
     }
-
+    //retorna o valor da altura da imagem
     int Image::height() const {
         return height_;
     }
 
-
-    //Função que acessa o valor da cor, podendo ser alter\ado(mutado)
+    //Função que acede ao valor da cor, podendo ser alterado(mutado)
+    //x representa as colunas(horizontal) e y as linhas(vertical)
+    //e, por definição, o acesso à matriz 2D é feito primeiro ás linhas e depois ás colunas (cor[y][x])
     Color &Image::at(int x, int y) {
 		return cor[y][x];
     }

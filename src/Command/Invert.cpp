@@ -4,11 +4,11 @@
 namespace prog {
     namespace command {
 
-        invert::invert() : Command("Invert") {}
+        Invert::Invert() : Command("Invert") {}
 
-        invert::~invert() {}
+        Invert::~Invert() {}
 
-        Image *invert::apply(Image *img) {
+        Image *Invert::apply(Image *img) {
             //obter valores da class img
             int largura = img->width();
             int altura = img->height();
@@ -28,7 +28,7 @@ namespace prog {
             return newImg;
         }
 
-        std::string invert::toString() const {
+        std::string Invert::toString() const {
             std::ostringstream ss;
             ss << name();
             return ss.str();

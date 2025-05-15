@@ -1,13 +1,286 @@
->>> [1] replace1 <<<
-Applying command 'Open filename:input/pacman.png'
-Applying command 'replace'
-Applying command 'Save filename:output/replace1.png'
->>> [2] replace2 <<<
+>>> [1] add1 <<<
+Applying command 'Blank w:400 h:400 fill:255:0:0'
+Applying command 'add input/lion.png 255 255 255 0 0'
+Applying command 'Save filename:output/add1.png'
+>>> [2] add2 <<<
+Applying command 'Blank w:800 h:800 fill:0:0:255'
+Applying command 'add input/lion.png 255 255 255 0 0'
+Applying command 'add input/lion.png 255 255 255 0 400'
+Applying command 'add input/mondrian.png 255 255 255 400 0'
+Applying command 'add input/mondrian.png 255 255 255 400 400'
+Applying command 'Save filename:output/add2.png'
+>>> [3] add3 <<<
+Applying command 'Blank w:800 h:800 fill:200:200:200'
+Applying command 'add input/mondrian.png 0 0 0 0 0'
+Applying command 'add input/lion.png 255 255 255 0 400'
+Applying command 'add input/mondrian.png 0 0 0 400 0'
+Applying command 'add input/lion.png 255 255 255 400 400'
+Applying command 'Save filename:output/add3.png'
+>>> [4] add4 <<<
+Applying command 'Open filename:input/jungle.png'
+Applying command 'add input/lion.png 255 255 255 1 50'
+Applying command 'add input/lion.png 255 255 255 301 50'
+Applying command 'add input/lion.png 255 255 255 601 100'
+Applying command 'Save filename:output/add4.png'
+>>> [5] add5 <<<
+Applying command 'Blank w:900 h:600 fill:255:255:255'
+Applying command 'add input/fernando-pessoa.png 255 255 255 0 0'
+Applying command 'add input/fernando-pessoa.png 255 255 255 300 125'
+Applying command 'add input/fernando-pessoa.png 255 255 255 600 225'
+Applying command 'Save filename:output/add5.png'
+>>> [6] basic_blank1 <<<
+Applying command 'Blank w:200 h:100 fill:255:0:0'
+Applying command 'Save filename:output/basic_blank1.png'
+>>> [7] basic_blank2 <<<
+Applying command 'Blank w:100 h:200 fill:255:255:0'
+Applying command 'Save filename:output/basic_blank2.png'
+>>> [8] basic_blank3 <<<
+Applying command 'Blank w:300 h:250 fill:0:255:255'
+Applying command 'Blank w:200 h:100 fill:255:0:0'
+Applying command 'Save filename:output/basic_blank3.png'
+>>> [9] basic_open1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'replace'
+Applying command 'Save filename:output/basic_open1.png'
+>>> [10] basic_open2 <<<
+Applying command 'Open filename:input/squares.png'
+Applying command 'Open filename:input/unionjack.png'
+Applying command 'Save filename:output/basic_open2.png'
+>>> [11] chain1 <<<
+Command not recognized: 'chain'
+Error while parsing command
+Scrim parse failed
+>>> [12] chain2 <<<
+Command not recognized: 'chain'
+Error while parsing command
+Scrim parse failed
+>>> [13] chain3 <<<
+Command not recognized: 'chain'
+Error while parsing command
+Scrim parse failed
+>>> [14] chain4 <<<
+Command not recognized: 'chain'
+Error while parsing command
+Scrim parse failed
+>>> [15] crop1 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [16] crop2 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [17] crop3 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [18] crop4 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [19] crop5 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [20] crop6 <<<
+Command not recognized: 'crop'
+Error while parsing command
+Scrim parse failed
+>>> [21] extra1 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [22] extra2 <<<
+Command not recognized: 'h_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [23] extra3 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [24] extra4 <<<
+Command not recognized: 'fill'
+Error while parsing command
+Scrim parse failed
+>>> [25] fill1 <<<
+Command not recognized: 'fill'
+Error while parsing command
+Scrim parse failed
+>>> [26] fill2 <<<
+Command not recognized: 'fill'
+Error while parsing command
+Scrim parse failed
+>>> [27] fill3 <<<
+Command not recognized: 'fill'
+Error while parsing command
+Scrim parse failed
+>>> [28] fill4 <<<
+Command not recognized: 'fill'
+Error while parsing command
+Scrim parse failed
+>>> [29] h_mirror1 <<<
+Command not recognized: 'h_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [30] h_mirror2 <<<
+Command not recognized: 'h_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [31] h_mirror3 <<<
+Command not recognized: 'h_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [32] h_mirror4 <<<
+Command not recognized: 'h_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [33] invert1 <<<
+Applying command 'Open filename:input/xkcd.png'
+Applying command 'Invert'
+Applying command 'Save filename:output/invert1.png'
+>>> [34] invert2 <<<
+Applying command 'Open filename:input/xkcd.png'
+Applying command 'Invert'
+Applying command 'Invert'
+Applying command 'Save filename:output/invert2.png'
+>>> [35] invert3 <<<
+Applying command 'Open filename:input/dilbert.png'
+Applying command 'Invert'
+Applying command 'Save filename:output/invert3.png'
+>>> [36] invert4 <<<
+Applying command 'Open filename:input/escher-angels-demons.png'
+Applying command 'Invert'
+Applying command 'Save filename:output/invert4.png'
+>>> [37] move1 <<<
+Command not recognized: 'move'
+Error while parsing command
+Scrim parse failed
+>>> [38] move2 <<<
+Command not recognized: 'move'
+Error while parsing command
+Scrim parse failed
+>>> [39] move3 <<<
+Command not recognized: 'move'
+Error while parsing command
+Scrim parse failed
+>>> [40] move4 <<<
+Command not recognized: 'move'
+Error while parsing command
+Scrim parse failed
+>>> [41] replace1 <<<
+Applying command 'Open filename:input/pacman.png'
+Applying command 'Replace'
+Applying command 'Save filename:output/replace1.png'
+>>> [42] replace2 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Replace'
 Applying command 'Save filename:output/replace2.png'
->>> [3] replace3 <<<
+>>> [43] replace3 <<<
 Applying command 'Open filename:input/dali.png'
-Applying command 'replace'
-Applying command 'replace'
+Applying command 'Replace'
+Applying command 'Replace'
 Applying command 'Save filename:output/replace3.png'
+>>> [44] resize1 <<<
+Command not recognized: 'resize'
+Error while parsing command
+Scrim parse failed
+>>> [45] resize2 <<<
+Command not recognized: 'resize'
+Error while parsing command
+Scrim parse failed
+>>> [46] rotate_left1 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [47] rotate_left2 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [48] rotate_left3 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [49] rotate_left_rotate_right1 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [50] rotate_left_rotate_right2 <<<
+Command not recognized: 'rotate_left'
+Error while parsing command
+Scrim parse failed
+>>> [51] rotate_right1 <<<
+Command not recognized: 'rotate_right'
+Error while parsing command
+Scrim parse failed
+>>> [52] rotate_right2 <<<
+Command not recognized: 'rotate_right'
+Error while parsing command
+Scrim parse failed
+>>> [53] rotate_right3 <<<
+Command not recognized: 'rotate_right'
+Error while parsing command
+Scrim parse failed
+>>> [54] scaleup1 <<<
+Command not recognized: 'scaleup'
+Error while parsing command
+Scrim parse failed
+>>> [55] scaleup2 <<<
+Command not recognized: 'scaleup'
+Error while parsing command
+Scrim parse failed
+>>> [56] scaleup3 <<<
+Command not recognized: 'scaleup'
+Error while parsing command
+Scrim parse failed
+>>> [57] scaleup4 <<<
+Command not recognized: 'scaleup'
+Error while parsing command
+Scrim parse failed
+>>> [58] slide1 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Slide125 0'
+Applying command 'Save filename:output/slide1.png'
+>>> [59] slide2 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Slide0 190'
+Applying command 'Save filename:output/slide2.png'
+>>> [60] slide3 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Slide125 190'
+Applying command 'Save filename:output/slide3.png'
+>>> [61] slide4 <<<
+Applying command 'Open filename:input/lion.png'
+Applying command 'Slide250 380'
+Applying command 'Save filename:output/slide4.png'
+>>> [62] to_gray_scale1 <<<
+Applying command 'Open filename:input/pacman.png'
+Applying command 'To_gray_scale'
+Applying command 'Save filename:output/to_gray_scale1.png'
+>>> [63] to_gray_scale2 <<<
+Applying command 'Open filename:input/pacman.png'
+Applying command 'To_gray_scale'
+Applying command 'To_gray_scale'
+Applying command 'Save filename:output/to_gray_scale2.png'
+>>> [64] to_gray_scale3 <<<
+Applying command 'Open filename:input/tetris.png'
+Applying command 'To_gray_scale'
+Applying command 'Save filename:output/to_gray_scale3.png'
+>>> [65] to_gray_scale4 <<<
+Applying command 'Open filename:input/mandelbrot.png'
+Applying command 'To_gray_scale'
+Applying command 'Save filename:output/to_gray_scale4.png'
+>>> [66] v_mirror1 <<<
+Command not recognized: 'v_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [67] v_mirror2 <<<
+Command not recognized: 'v_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [68] v_mirror3 <<<
+Command not recognized: 'v_mirror'
+Error while parsing command
+Scrim parse failed
+>>> [69] v_mirror4 <<<
+Command not recognized: 'v_mirror'
+Error while parsing command
+Scrim parse failed

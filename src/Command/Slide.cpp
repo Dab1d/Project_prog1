@@ -6,10 +6,10 @@
 namespace prog {
     namespace command {
 
-        slide::slide(int offset_x, int offset_y)
-            : Command("slide"), x_offset(offset_x), y_offset(offset_y) {}
+        Slide::Slide(int offset_x, int offset_y)
+            : Command("Slide"), x_offset(offset_x), y_offset(offset_y) {}
 
-        Image* slide::apply(Image* img) {
+        Image* Slide::apply(Image* img) {
             int larg = img->width();
             int alt = img->height();
 
@@ -31,8 +31,8 @@ namespace prog {
             return result;
         }
 
-        std::string slide::toString() const {
-            return "slide" + std::to_string(x_offset) + " " + std::to_string(y_offset);
+        std::string Slide::toString() const {
+            return "Slide" + std::to_string(x_offset) + " " + std::to_string(y_offset);
         }
 
     } // namespace command

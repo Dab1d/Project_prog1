@@ -6,7 +6,6 @@
 #define PROJECT_COMMAND_HPP
 
 #include "Image.hpp"
-
 #include <string>
 
 namespace prog {
