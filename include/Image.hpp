@@ -4,25 +4,35 @@
 #include "Color.hpp"
 #include <vector>
 
-namespace prog {
-    class Image {
-    int width_;
-    int height_;
-        std::vector<std::vector<Color>> cor;
+    namespace prog {
+        class Image {
 
+        public:
 
-	public:
-        Image(int w, int h, const Color &fill = {255, 255, 255});
+            //Constructor que cria uma imagem w x h,
+            //preenchendo-a com uma cor
+            Image(int w, int h, const Color &fill = {255, 255, 255});
 
-        ~Image();
+            //Destructor
+            ~Image();
+            // Retorna a largura (nº de linhas)
+            int width() const;
 
-        int width() const;
+            // Retorna a altura (nº de colunas)
+            int height() const;
 
-        int height() const;
+            //Pixel mutável
+            Color &at(int x, int y);
 
-        Color &at(int x, int y);
+            //Pixel Imutavel
+            const Color &at(int x, int y) const;
 
-        const Color &at(int x, int y) const;
-    };
+        private:
+
+            int width_;
+            int height_;
+            //Matriz 2D que contém a cor de cada pixel
+            std::vector<std::vector<Color>> cor;
+        };
 }
 #endif

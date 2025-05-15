@@ -8,10 +8,10 @@
 
 namespace prog {
     namespace command {
-        class slide : public Command {
+        class Slide : public Command {
             public:
 
-                slide(int offset_x, int offset_y);
+                Slide(int offset_x, int offset_y);
 
                 Image* apply(Image* img) override;
 

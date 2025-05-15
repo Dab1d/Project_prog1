@@ -1,20 +1,19 @@
 //
-// Created by 2006d on 12/05/2025.
+// Created by David on 15/05/2025.
 //
 
-#ifndef INVERT_H
-#define INVERT_H
-
+#ifndef CROP_HPP
+#define CROP_HPP
 #include "Command.hpp"
 #include <string>
 
 namespace prog {
     namespace command {
-        class Invert : public Command {
+        class Crop: public Command {
         public:
-            Invert();
+            Crop();
 
-            ~Invert();
+            ~Crop();
 
             Image *apply(Image *img) override;
 
@@ -22,6 +21,4 @@ namespace prog {
         };
     }
 }
-
-
-#endif //INVERT_H
+#endif //CROP_HPP

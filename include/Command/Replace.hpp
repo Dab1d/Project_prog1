@@ -2,8 +2,8 @@
 // Created by Davidf on 15-05-2025.
 //
 
-#ifndef REPLACE_H
-#define REPLACE_H
+#ifndef REPLACE_HPP
+#define REPLACE_HPP
 #include "Image.hpp"
 #include "Command.hpp"
 #include <string>
@@ -11,11 +11,11 @@
 namespace prog {
     namespace command {
 
-        class replace : public Command {
+        class Replace : public Command {
         public:
-            replace(rgb_value r1,rgb_value g1,rgb_value b1,rgb_value r2,rgb_value g2,rgb_value b2);
+            Replace(rgb_value r1,rgb_value g1,rgb_value b1,rgb_value r2,rgb_value g2,rgb_value b2);
 
-            ~replace();
+            ~Replace();
 
             Image* apply(Image* base_img) override;
             std::string toString() const override;
@@ -25,4 +25,4 @@ namespace prog {
         };
     }
 }
-#endif //REPLACE_H
+#endif //REPLACE_HPP

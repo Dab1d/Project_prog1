@@ -7,10 +7,6 @@ namespace prog {
     typedef unsigned char rgb_value;
 
     class Color {
-    private:
-       rgb_value red_;
-       rgb_value green_;
-       rgb_value blue_;
     public:
         Color();
 
@@ -29,6 +25,9 @@ namespace prog {
         rgb_value blue() const;
 
         rgb_value &blue();
+
+    private:
+       rgb_value red_, green_, blue_;
     };
 }
 
