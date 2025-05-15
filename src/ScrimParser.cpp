@@ -15,6 +15,7 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
+#include "Command/scaleup.hpp"
 #include "Command/v_mirror.hpp"
 #include "Command/rotate_left.h"
 #include "Command/rotate_right.h"
@@ -147,6 +148,11 @@ namespace prog {
 
         if (command_name == "rotate_right") {
             return new command::rotate_right();
+        }
+        if (command_name == "scaleup") {
+            int larg, alt;
+            input >> larg >> alt;
+            return new command::scaleup(larg, alt);
         }
 
         // TODO: implement cases for the new commands
