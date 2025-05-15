@@ -2,7 +2,6 @@
 // Created by JBispo on 05/04/2025.
 //
 #include "ScrimParser.hpp"
-
 #include "Command/Blank.hpp"
 #include "Command/Save.hpp"
 #include "Command/Open.hpp"

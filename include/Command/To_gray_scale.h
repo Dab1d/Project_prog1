@@ -13,12 +13,13 @@ namespace prog {
 
     class To_gray_scale : public Command {
         public:
+
         To_gray_scale();
 
         ~To_gray_scale();
 
-
         Image* apply(Image* base_img) override;
+
         std::string toString() const override;
     };
     }
