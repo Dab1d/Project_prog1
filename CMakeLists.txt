@@ -21,16 +21,16 @@ file(GLOB_RECURSE SOURCES_BASE CONFIGURE_DEPENDS "src/*.cpp")
 add_executable(runscrim
         ${SOURCES_BASE}
         main/RunScrim.cpp
-        src/Command/hmirror.cpp
-        src/Command/Vmirror.cpp
+        src/Command/h_mirror.cpp
+        src/Command/v_mirror.cpp
 )
 
 # Create tester executable
 add_executable(tester
         ${SOURCES_BASE}
         main/Tester.cpp
-        src/Command/hmirror.cpp
-        src/Command/Vmirror.cpp
+        src/Command/h_mirror.cpp
+        src/Command/V_mirror.cpp
 )
 
 target_include_directories(runscrim PRIVATE
