@@ -4,7 +4,7 @@
 using std::istream;
 
 namespace prog {
-    //constructor defaut (preto)
+    //constructor default (preto)
     Color::Color(): red_(0), green_(0),blue_(0){
     }
     //constructor de cópia (com valores predefinidos)
