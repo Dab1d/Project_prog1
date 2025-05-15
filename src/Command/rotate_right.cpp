@@ -1,17 +1,17 @@
 //
 // Created by 2006d on 15/05/2025.
 //
-#include "Command/rotate_left.h"
+#include "Command/rotate_right.h"
 #include <sstream>
 
 namespace prog {
     namespace command {
 
-        rotate_left::rotate_left() : Command("rotate_left") {}
+        rotate_right::rotate_right() : Command("rotate_right") {}
 
-        rotate_left::~rotate_left() {}
+        rotate_right::~rotate_right() {}
 
-        Image *rotate_left::apply(Image *img) {
+        Image *rotate_right::apply(Image *img) {
             //obter valores da class img
             int largura = img->width();
             int altura = img->height();
@@ -23,7 +23,7 @@ namespace prog {
             for (int y = 0;y < altura;y++) {
                 for (int x = 0;x < largura;x++) {
                     Color base = img->at(x, y);
-                    newImg->at(y,largura-x-1) = base;
+                    newImg->at(altura -y-1,x) = base;
                 }
             }
 
@@ -31,7 +31,7 @@ namespace prog {
             return newImg;
         }
 
-        std::string rotate_left::toString() const {
+        std::string rotate_right::toString() const {
             std::ostringstream ss;
             ss << name();
             return ss.str();

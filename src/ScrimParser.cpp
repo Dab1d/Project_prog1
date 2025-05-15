@@ -16,6 +16,8 @@
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
 #include "Command/v_mirror.hpp"
+#include "Command/rotate_left.h"
+#include "Command/rotate_right.h"
 
 
 #include <fstream>
@@ -137,6 +139,14 @@ namespace prog {
 
         if (command_name == "v_mirror") {
             return new command::v_mirror();
+        }
+
+        if (command_name == "rotate_left") {
+            return new command::rotate_left();
+        }
+
+        if (command_name == "rotate_right") {
+            return new command::rotate_right();
         }
 
         // TODO: implement cases for the new commands
