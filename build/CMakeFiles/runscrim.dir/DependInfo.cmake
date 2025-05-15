@@ -16,6 +16,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/megaman/Project_prog1/src/Command/Save.cpp" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/add.cpp" "CMakeFiles/runscrim.dir/src/Command/add.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/add.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/invert.cpp" "CMakeFiles/runscrim.dir/src/Command/invert.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/invert.cpp.o.d"
+  "/home/megaman/Project_prog1/src/Command/move.cpp" "CMakeFiles/runscrim.dir/src/Command/move.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/move.cpp.o.d"
+  "/home/megaman/Project_prog1/src/Command/replace.cpp" "CMakeFiles/runscrim.dir/src/Command/replace.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/replace.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/slide.cpp" "CMakeFiles/runscrim.dir/src/Command/slide.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/slide.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/to_gray_scale.cpp" "CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o.d"
   "/home/megaman/Project_prog1/src/Image.cpp" "CMakeFiles/runscrim.dir/src/Image.cpp.o" "gcc" "CMakeFiles/runscrim.dir/src/Image.cpp.o.d"

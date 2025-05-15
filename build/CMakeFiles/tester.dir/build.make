@@ -167,10 +167,38 @@ CMakeFiles/tester.dir/src/Command/invert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/invert.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/invert.cpp -o CMakeFiles/tester.dir/src/Command/invert.cpp.s
 
+CMakeFiles/tester.dir/src/Command/move.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/move.cpp.o: /home/megaman/Project_prog1/src/Command/move.cpp
+CMakeFiles/tester.dir/src/Command/move.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/move.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/move.cpp.o -MF CMakeFiles/tester.dir/src/Command/move.cpp.o.d -o CMakeFiles/tester.dir/src/Command/move.cpp.o -c /home/megaman/Project_prog1/src/Command/move.cpp
+
+CMakeFiles/tester.dir/src/Command/move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/move.cpp > CMakeFiles/tester.dir/src/Command/move.cpp.i
+
+CMakeFiles/tester.dir/src/Command/move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/move.cpp -o CMakeFiles/tester.dir/src/Command/move.cpp.s
+
+CMakeFiles/tester.dir/src/Command/replace.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/replace.cpp.o: /home/megaman/Project_prog1/src/Command/replace.cpp
+CMakeFiles/tester.dir/src/Command/replace.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/replace.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/replace.cpp.o -MF CMakeFiles/tester.dir/src/Command/replace.cpp.o.d -o CMakeFiles/tester.dir/src/Command/replace.cpp.o -c /home/megaman/Project_prog1/src/Command/replace.cpp
+
+CMakeFiles/tester.dir/src/Command/replace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/replace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/replace.cpp > CMakeFiles/tester.dir/src/Command/replace.cpp.i
+
+CMakeFiles/tester.dir/src/Command/replace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/replace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/replace.cpp -o CMakeFiles/tester.dir/src/Command/replace.cpp.s
+
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: /home/megaman/Project_prog1/src/Command/slide.cpp
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/slide.cpp.o -MF CMakeFiles/tester.dir/src/Command/slide.cpp.o.d -o CMakeFiles/tester.dir/src/Command/slide.cpp.o -c /home/megaman/Project_prog1/src/Command/slide.cpp
 
 CMakeFiles/tester.dir/src/Command/slide.cpp.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/tester.dir/src/Command/slide.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o -MF CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o.d -o CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o -c /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
 
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Image.cpp.o: /home/megaman/Project_prog1/src/Image.cpp
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.o -MF CMakeFiles/tester.dir/src/Image.cpp.o.d -o CMakeFiles/tester.dir/src/Image.cpp.o -c /home/megaman/Project_prog1/src/Image.cpp
 
 CMakeFiles/tester.dir/src/Image.cpp.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/tester.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Logger.cpp.o: /home/megaman/Project_prog1/src/Logger.cpp
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.o -MF CMakeFiles/tester.dir/src/Logger.cpp.o.d -o CMakeFiles/tester.dir/src/Logger.cpp.o -c /home/megaman/Project_prog1/src/Logger.cpp
 
 CMakeFiles/tester.dir/src/Logger.cpp.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/tester.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/PNG.cpp.o: /home/megaman/Project_prog1/src/PNG.cpp
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.o -MF CMakeFiles/tester.dir/src/PNG.cpp.o.d -o CMakeFiles/tester.dir/src/PNG.cpp.o -c /home/megaman/Project_prog1/src/PNG.cpp
 
 CMakeFiles/tester.dir/src/PNG.cpp.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/tester.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Scrim.cpp.o: /home/megaman/Project_prog1/src/Scrim.cpp
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.o -MF CMakeFiles/tester.dir/src/Scrim.cpp.o.d -o CMakeFiles/tester.dir/src/Scrim.cpp.o -c /home/megaman/Project_prog1/src/Scrim.cpp
 
 CMakeFiles/tester.dir/src/Scrim.cpp.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/tester.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: /home/megaman/Project_prog1/src/ScrimParser.cpp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.o -MF CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/tester.dir/src/ScrimParser.cpp.o -c /home/megaman/Project_prog1/src/ScrimParser.cpp
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Utils.cpp.o: /home/megaman/Project_prog1/src/Utils.cpp
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.o -MF CMakeFiles/tester.dir/src/Utils.cpp.o.d -o CMakeFiles/tester.dir/src/Utils.cpp.o -c /home/megaman/Project_prog1/src/Utils.cpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/tester.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/main/Tester.cpp.o: /home/megaman/Project_prog1/main/Tester.cpp
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.o -MF CMakeFiles/tester.dir/main/Tester.cpp.o.d -o CMakeFiles/tester.dir/main/Tester.cpp.o -c /home/megaman/Project_prog1/main/Tester.cpp
 
 CMakeFiles/tester.dir/main/Tester.cpp.i: cmake_force
@@ -302,6 +330,8 @@ tester_OBJECTS = \
 "CMakeFiles/tester.dir/src/Command/Save.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/add.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/invert.cpp.o" \
+"CMakeFiles/tester.dir/src/Command/move.cpp.o" \
+"CMakeFiles/tester.dir/src/Command/replace.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/slide.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o" \
 "CMakeFiles/tester.dir/src/Image.cpp.o" \
@@ -322,6 +352,8 @@ tester: CMakeFiles/tester.dir/src/Command/Open.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/Save.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/add.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/invert.cpp.o
+tester: CMakeFiles/tester.dir/src/Command/move.cpp.o
+tester: CMakeFiles/tester.dir/src/Command/replace.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/slide.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o
 tester: CMakeFiles/tester.dir/src/Image.cpp.o
@@ -333,7 +365,7 @@ tester: CMakeFiles/tester.dir/src/Utils.cpp.o
 tester: CMakeFiles/tester.dir/main/Tester.cpp.o
 tester: CMakeFiles/tester.dir/build.make
 tester: CMakeFiles/tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable tester"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

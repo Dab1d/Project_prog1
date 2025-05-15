@@ -170,6 +170,9 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.o: \
  /home/megaman/Project_prog1/include/Command/Open.hpp \
  /home/megaman/Project_prog1/include/Logger.hpp \
  /home/megaman/Project_prog1/include/Command/Invert.hpp \
- /home/megaman/Project_prog1/include/Command/slide.hpp \
+ /home/megaman/Project_prog1/include/Command/to_gray_scale.h \
  /home/megaman/Project_prog1/include/Image.hpp \
- /home/megaman/Project_prog1/include/Command/add.hpp
+ /home/megaman/Project_prog1/include/Command/replace.h \
+ /home/megaman/Project_prog1/include/Command/slide.hpp \
+ /home/megaman/Project_prog1/include/Command/add.hpp \
+ /home/megaman/Project_prog1/include/Command/move.hpp

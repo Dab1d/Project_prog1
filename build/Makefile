@@ -393,6 +393,60 @@ src/Command/invert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/invert.cpp.s
 .PHONY : src/Command/invert.cpp.s
 
+src/Command/move.o: src/Command/move.cpp.o
+.PHONY : src/Command/move.o
+
+# target to build an object file
+src/Command/move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/move.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/move.cpp.o
+.PHONY : src/Command/move.cpp.o
+
+src/Command/move.i: src/Command/move.cpp.i
+.PHONY : src/Command/move.i
+
+# target to preprocess a source file
+src/Command/move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/move.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/move.cpp.i
+.PHONY : src/Command/move.cpp.i
+
+src/Command/move.s: src/Command/move.cpp.s
+.PHONY : src/Command/move.s
+
+# target to generate assembly for a file
+src/Command/move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/move.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/move.cpp.s
+.PHONY : src/Command/move.cpp.s
+
+src/Command/replace.o: src/Command/replace.cpp.o
+.PHONY : src/Command/replace.o
+
+# target to build an object file
+src/Command/replace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/replace.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/replace.cpp.o
+.PHONY : src/Command/replace.cpp.o
+
+src/Command/replace.i: src/Command/replace.cpp.i
+.PHONY : src/Command/replace.i
+
+# target to preprocess a source file
+src/Command/replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/replace.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/replace.cpp.i
+.PHONY : src/Command/replace.cpp.i
+
+src/Command/replace.s: src/Command/replace.cpp.s
+.PHONY : src/Command/replace.s
+
+# target to generate assembly for a file
+src/Command/replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/replace.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/replace.cpp.s
+.PHONY : src/Command/replace.cpp.s
+
 src/Command/slide.o: src/Command/slide.cpp.o
 .PHONY : src/Command/slide.o
 
@@ -647,6 +701,12 @@ help:
 	@echo "... src/Command/invert.o"
 	@echo "... src/Command/invert.i"
 	@echo "... src/Command/invert.s"
+	@echo "... src/Command/move.o"
+	@echo "... src/Command/move.i"
+	@echo "... src/Command/move.s"
+	@echo "... src/Command/replace.o"
+	@echo "... src/Command/replace.i"
+	@echo "... src/Command/replace.s"
 	@echo "... src/Command/slide.o"
 	@echo "... src/Command/slide.i"
 	@echo "... src/Command/slide.s"

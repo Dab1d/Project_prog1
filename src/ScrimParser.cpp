@@ -13,7 +13,7 @@
 #include "Command/replace.h"
 #include "Command/slide.hpp"
 #include "Command/add.hpp"
-
+#include "Command/move.hpp"
 
 #include <fstream>
 #include <string>
@@ -120,6 +120,12 @@ namespace prog {
             };
             auto* cmd = new command::add(fname, filter_color, pos_x, pos_y);
             return cmd;
+        }
+
+        if (command_name == "move") {
+            int offsetx, offsety;
+            input >> offsetx >> offsety;
+            return new command::move(offsetx, offsety);
         }
 
         // TODO: implement cases for the new commands
