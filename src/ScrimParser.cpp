@@ -14,6 +14,9 @@
 #include "Command/slide.hpp"
 #include "Command/add.hpp"
 #include "Command/move.hpp"
+#include "Command/Hmirror.h"
+#include "Command/Vmirror.h"
+
 
 #include <fstream>
 #include <string>
@@ -126,6 +129,12 @@ namespace prog {
             int offsetx, offsety;
             input >> offsetx >> offsety;
             return new command::move(offsetx, offsety);
+        }
+        if (command_name == "Hmirror") {
+            return new command::Hmirror();
+        }
+        if (command_name == "Vmirror") {
+            return new command::Vmirror();
         }
 
         // TODO: implement cases for the new commands
