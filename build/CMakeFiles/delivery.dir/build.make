@@ -76,6 +76,8 @@ delivery.zip: /home/megaman/Project_prog1/src/Command/Open.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Command/Save.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Command/add.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Command/invert.cpp
+delivery.zip: /home/megaman/Project_prog1/src/Command/move.cpp
+delivery.zip: /home/megaman/Project_prog1/src/Command/replace.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Command/slide.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Image.cpp
@@ -85,7 +87,7 @@ delivery.zip: /home/megaman/Project_prog1/src/Scrim.cpp
 delivery.zip: /home/megaman/Project_prog1/src/ScrimParser.cpp
 delivery.zip: /home/megaman/Project_prog1/src/Utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Creating zip archive: /home/megaman/Project_prog1/build/delivery.zip"
-	cd /home/megaman/Project_prog1 && /usr/bin/cmake -E tar cf /home/megaman/Project_prog1/build/delivery.zip --format=zip /home/megaman/Project_prog1/include /home/megaman/Project_prog1/src/Color.cpp /home/megaman/Project_prog1/src/Command.cpp /home/megaman/Project_prog1/src/Command/Blank.cpp /home/megaman/Project_prog1/src/Command/Open.cpp /home/megaman/Project_prog1/src/Command/Save.cpp /home/megaman/Project_prog1/src/Command/add.cpp /home/megaman/Project_prog1/src/Command/invert.cpp /home/megaman/Project_prog1/src/Command/slide.cpp /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp /home/megaman/Project_prog1/src/Image.cpp /home/megaman/Project_prog1/src/Logger.cpp /home/megaman/Project_prog1/src/PNG.cpp /home/megaman/Project_prog1/src/Scrim.cpp /home/megaman/Project_prog1/src/ScrimParser.cpp /home/megaman/Project_prog1/src/Utils.cpp
+	cd /home/megaman/Project_prog1 && /usr/bin/cmake -E tar cf /home/megaman/Project_prog1/build/delivery.zip --format=zip /home/megaman/Project_prog1/include /home/megaman/Project_prog1/src/Color.cpp /home/megaman/Project_prog1/src/Command.cpp /home/megaman/Project_prog1/src/Command/Blank.cpp /home/megaman/Project_prog1/src/Command/Open.cpp /home/megaman/Project_prog1/src/Command/Save.cpp /home/megaman/Project_prog1/src/Command/add.cpp /home/megaman/Project_prog1/src/Command/invert.cpp /home/megaman/Project_prog1/src/Command/move.cpp /home/megaman/Project_prog1/src/Command/replace.cpp /home/megaman/Project_prog1/src/Command/slide.cpp /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp /home/megaman/Project_prog1/src/Image.cpp /home/megaman/Project_prog1/src/Logger.cpp /home/megaman/Project_prog1/src/PNG.cpp /home/megaman/Project_prog1/src/Scrim.cpp /home/megaman/Project_prog1/src/ScrimParser.cpp /home/megaman/Project_prog1/src/Utils.cpp
 
 delivery: CMakeFiles/delivery
 delivery: delivery.zip

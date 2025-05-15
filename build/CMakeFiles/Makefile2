@@ -84,12 +84,12 @@ clean: CMakeFiles/delivery.dir/clean
 CMakeFiles/runscrim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target runscrim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target runscrim"
 .PHONY : CMakeFiles/runscrim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/runscrim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/runscrim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 0
 .PHONY : CMakeFiles/runscrim.dir/rule
@@ -110,12 +110,12 @@ CMakeFiles/runscrim.dir/clean:
 CMakeFiles/tester.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target tester"
 .PHONY : CMakeFiles/tester.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/megaman/Project_prog1/build/CMakeFiles 0
 .PHONY : CMakeFiles/tester.dir/rule

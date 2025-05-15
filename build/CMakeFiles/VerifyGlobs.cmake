@@ -12,6 +12,8 @@ set(OLD_GLOB
   "/home/megaman/Project_prog1/src/Command/Save.cpp"
   "/home/megaman/Project_prog1/src/Command/add.cpp"
   "/home/megaman/Project_prog1/src/Command/invert.cpp"
+  "/home/megaman/Project_prog1/src/Command/move.cpp"
+  "/home/megaman/Project_prog1/src/Command/replace.cpp"
   "/home/megaman/Project_prog1/src/Command/slide.cpp"
   "/home/megaman/Project_prog1/src/Command/to_gray_scale.cpp"
   "/home/megaman/Project_prog1/src/Image.cpp"

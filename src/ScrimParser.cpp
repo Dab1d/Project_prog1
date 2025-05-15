@@ -14,6 +14,9 @@
 #include "Command/Crop.hpp"
 #include "Command/Slide.hpp"
 #include "Command/add.hpp"
+#include "Command/move.hpp"
+#include "Command/Hmirror.h"
+#include "Command/Vmirror.h"
 
 
 #include <fstream>
@@ -121,6 +124,18 @@ namespace prog {
             };
             auto* cmd = new command::add(fname, filter_color, pos_x, pos_y);
             return cmd;
+        }
+
+        if (command_name == "move") {
+            int offsetx, offsety;
+            input >> offsetx >> offsety;
+            return new command::move(offsetx, offsety);
+        }
+        if (command_name == "Hmirror") {
+            return new command::Hmirror();
+        }
+        if (command_name == "Vmirror") {
+            return new command::Vmirror();
         }
 
         // TODO: implement cases for the new commands

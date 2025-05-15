@@ -16,6 +16,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/megaman/Project_prog1/src/Command/Save.cpp" "CMakeFiles/tester.dir/src/Command/Save.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/Save.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/add.cpp" "CMakeFiles/tester.dir/src/Command/add.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/add.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/invert.cpp" "CMakeFiles/tester.dir/src/Command/invert.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/invert.cpp.o.d"
+  "/home/megaman/Project_prog1/src/Command/move.cpp" "CMakeFiles/tester.dir/src/Command/move.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/move.cpp.o.d"
+  "/home/megaman/Project_prog1/src/Command/replace.cpp" "CMakeFiles/tester.dir/src/Command/replace.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/replace.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/slide.cpp" "CMakeFiles/tester.dir/src/Command/slide.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/slide.cpp.o.d"
   "/home/megaman/Project_prog1/src/Command/to_gray_scale.cpp" "CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o.d"
   "/home/megaman/Project_prog1/src/Image.cpp" "CMakeFiles/tester.dir/src/Image.cpp.o" "gcc" "CMakeFiles/tester.dir/src/Image.cpp.o.d"

@@ -150,22 +150,7 @@ Applying command 'Save filename:output/invert3.png'
 Applying command 'Open filename:input/escher-angels-demons.png'
 Applying command 'Invert'
 Applying command 'Save filename:output/invert4.png'
->>> [37] move1 <<<
-Command not recognized: 'move'
-Error while parsing command
-Scrim parse failed
->>> [38] move2 <<<
-Command not recognized: 'move'
-Error while parsing command
-Scrim parse failed
->>> [39] move3 <<<
-Command not recognized: 'move'
-Error while parsing command
-Scrim parse failed
->>> [40] move4 <<<
-Command not recognized: 'move'
-Error while parsing command
-Scrim parse failed
+
 >>> [41] replace1 <<<
 Applying command 'Open filename:input/pacman.png'
 Applying command 'Replace'
@@ -237,36 +222,6 @@ Error while parsing command
 Scrim parse failed
 >>> [58] slide1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 0'
-Applying command 'Save filename:output/slide1.png'
->>> [59] slide2 <<<
-Applying command 'Open filename:input/lion.png'
-Applying command 'Slide0 190'
-Applying command 'Save filename:output/slide2.png'
->>> [60] slide3 <<<
-Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 190'
-Applying command 'Save filename:output/slide3.png'
->>> [61] slide4 <<<
-Applying command 'Open filename:input/lion.png'
-Applying command 'Slide250 380'
-Applying command 'Save filename:output/slide4.png'
->>> [62] to_gray_scale1 <<<
-Applying command 'Open filename:input/pacman.png'
-Applying command 'To_gray_scale'
-Applying command 'Save filename:output/to_gray_scale1.png'
->>> [63] to_gray_scale2 <<<
-Applying command 'Open filename:input/pacman.png'
-Applying command 'To_gray_scale'
-Applying command 'To_gray_scale'
-Applying command 'Save filename:output/to_gray_scale2.png'
->>> [64] to_gray_scale3 <<<
-Applying command 'Open filename:input/tetris.png'
-Applying command 'To_gray_scale'
-Applying command 'Save filename:output/to_gray_scale3.png'
->>> [65] to_gray_scale4 <<<
-Applying command 'Open filename:input/mandelbrot.png'
-Applying command 'To_gray_scale'
 Applying command 'Save filename:output/to_gray_scale4.png'
 >>> [66] v_mirror1 <<<
 Command not recognized: 'v_mirror'
