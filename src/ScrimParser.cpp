@@ -8,6 +8,7 @@
 #include "Command/Open.hpp"
 #include "Logger.hpp"
 #include "Command/Invert.hpp"
+#include "Command/to_gray_scale.h"
 #include "Command/slide.hpp"
 #include "Command/add.hpp"
 
@@ -94,6 +95,10 @@ namespace prog {
 
         if (command_name == "invert") {
             return new command::invert();
+        }
+
+        if (command_name == "to_gray_scale") {
+            return new command::to_gray_scale();
         }
 
         if (command_name == "add") {
