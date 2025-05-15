@@ -15,7 +15,7 @@
 #include "Command/Slide.hpp"
 #include "Command/add.hpp"
 #include "Command/move.hpp"
-#include "Command/Hmirror.h"
+#include "Command/h_mirror.hpp"
 #include "Command/Vmirror.h"
 
 
@@ -131,9 +131,11 @@ namespace prog {
             input >> offsetx >> offsety;
             return new command::move(offsetx, offsety);
         }
-        if (command_name == "Hmirror") {
-            return new command::Hmirror();
+
+        if (command_name == "h_mirror") {
+            return new command::h_mirror();
         }
+
         if (command_name == "Vmirror") {
             return new command::Vmirror();
         }

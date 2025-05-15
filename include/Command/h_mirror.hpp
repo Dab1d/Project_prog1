@@ -2,21 +2,21 @@
 // Created by Eduardo on 15/05/2025.
 //
 
-#ifndef HMIRROR_H
-#define HMIRROR_H
+#ifndef H_MIRROR_HPP
+#define H_MIRROR_HPP
 #include "Image.hpp"
 #include "Command.hpp"
 
 namespace prog {
     namespace command {
-        class Hmirror : public Command {
+        class h_mirror : public Command {
         public:
-            Hmirror();
+            h_mirror();
 
-            ~Hmirror();
+            ~h_mirror();
 
             Image* apply(Image* base_img) override;
         };
     }
 }
-#endif //HMIRROR_H
+#endif //H_MIRROR_HPP

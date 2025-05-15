@@ -1,19 +1,17 @@
 //
 // Created by Eduardo on 15/05/2025.
 //
-//
-// Created by Eduardo on 15/05/2025.
-//
+
 #include "Command.hpp"
-#include "Command/Hmirror.h"
+#include "Command/h_mirror.hpp"
 
 namespace prog {
     namespace command {
-        Hmirror::Hmirror() : Command("Hmirror") {}
+        h_mirror::h_mirror() : Command("h_mirror") {}
 
-        Hmirror::~Hmirror(){}
+        h_mirror::~h_mirror(){}
 
-        Image *Hmirror::apply(Image *img) {
+        Image *h_mirror::apply(Image *img) {
             //obter valores da class img
             int largura = img->width();
             int altura = img->height();
