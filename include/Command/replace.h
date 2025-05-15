@@ -1,5 +1,5 @@
 //
-// Created by up202406798 on 15-05-2025.
+// Created by Davidf on 15-05-2025.
 //
 
 #ifndef REPLACE_H
@@ -21,7 +21,7 @@ namespace prog {
             std::string toString() const override;
 
           private:
-            rgb_value r1,g1,b1,r2,g2,b2;
+            rgb_value r1_,g1_,b1_,r2_,g2_,b2_;
         };
     }
 }

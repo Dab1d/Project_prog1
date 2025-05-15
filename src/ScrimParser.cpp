@@ -7,8 +7,10 @@
 #include "Command/Save.hpp"
 #include "Command/Open.hpp"
 #include "Logger.hpp"
+#include "Color.hpp"
 #include "Command/Invert.hpp"
 #include "Command/to_gray_scale.h"
+#include "Command/replace.h"
 #include "Command/slide.hpp"
 #include "Command/add.hpp"
 
@@ -87,8 +89,7 @@ namespace prog {
         }
 
         if (command_name == "slide") {
-            int x_offset;
-            int y_offset;
+            int x_offset,y_offset;
             input >> x_offset >> y_offset;
             return   new command::slide(x_offset, y_offset);
         }
@@ -99,6 +100,12 @@ namespace prog {
 
         if (command_name == "to_gray_scale") {
             return new command::to_gray_scale();
+        }
+
+        if (command_name == "replace") {
+            int r1,g1,b1,r2,g2,b2;
+            input >> r1 >> g1 >> b1 >> r2 >> g2 >> b2;
+            return new command::replace(r1,g1,b1,r2,g2,b2);
         }
 
         if (command_name == "add") {

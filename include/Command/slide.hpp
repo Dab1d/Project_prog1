@@ -24,4 +24,4 @@ namespace prog {
     }
 }
 
-#endif //fim sr sigma
+#endif
