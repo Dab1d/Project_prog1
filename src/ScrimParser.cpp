@@ -15,7 +15,7 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
-#include "Command/v_mirror.h"
+#include "Command/v_mirror.hpp"
 
 
 #include <fstream>
