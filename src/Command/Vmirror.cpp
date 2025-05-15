@@ -2,15 +2,15 @@
 // Created by Eduardo on 15/05/2025.
 //
 #include "Command.hpp"
-#include "Command/Vmirror.h"
+#include "Command/v_mirror.h"
 
 namespace prog {
     namespace command {
-        Vmirror::Vmirror() : Command("Vmirror") {}
+        v_mirror::v_mirror() : Command("v_mirror") {}
 
-        Vmirror::~Vmirror(){}
+        v_mirror::~v_mirror(){}
 
-        Image *Vmirror::apply(Image *img) {
+        Image *v_mirror::apply(Image *img) {
             //obter valores da class img
             int largura = img->width();
             int altura = img->height();

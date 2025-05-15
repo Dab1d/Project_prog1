@@ -16,7 +16,7 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
-#include "Command/Vmirror.h"
+#include "Command/v_mirror.h"
 
 
 #include <fstream>
@@ -136,8 +136,8 @@ namespace prog {
             return new command::h_mirror();
         }
 
-        if (command_name == "Vmirror") {
-            return new command::Vmirror();
+        if (command_name == "v_mirror") {
+            return new command::v_mirror();
         }
 
         // TODO: implement cases for the new commands

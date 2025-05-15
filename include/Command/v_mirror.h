@@ -9,14 +9,14 @@
 
 namespace prog {
     namespace command {
-        class Vmirror : public Command {
+        class v_mirror : public Command {
           public:
-            Vmirror();
+            v_mirror();
 
-            ~Vmirror();
+            ~v_mirror();
 
             Image* apply(Image* base_img) override;
         };
     }
 }
-#endif //VMIRROR_H
+#endif //V_MIRROR_H
