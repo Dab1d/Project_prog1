@@ -2,7 +2,7 @@
 // Created by Eduardo on 15/05/2025.
 //
 #include "Command.hpp"
-#include "Command/v_mirror.h"
+#include "Command/v_mirror.hpp"
 
 namespace prog {
     namespace command {
