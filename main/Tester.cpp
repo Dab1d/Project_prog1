@@ -54,13 +54,14 @@ namespace prog {
       string scrim_file = root_path + "/" + SCRIMS_FOLDER + "/" + id + ".scrim";
       string out_file = root_path + "/" + OUTPUT_FOLDER + "/" + id + ".png";
       string exp_file = root_path + "/" + EXPECTED_FOLDER + "/" + id + ".png";
+      string bad_file = root_path + "/" + OUTPUT_FOLDER + "/badfile-" + id + ".png";
 
       // Create parser
       ScrimParser parser;
       Scrim *scrim = parser.parseScrim(scrim_file); // get Scrim
 
       if (!scrim) {
-        Logger::log("Scrim parse failed");
+        Logger::error("Scrim parse failed");
         return false;
       }
 
@@ -68,6 +69,12 @@ namespace prog {
 
       delete scrim; // Dispose of scrim
       delete img; // Dispose of the image
+
+      std::ifstream bad_file_stream(bad_file);
+      if (bad_file_stream.good()) {
+        *Logger::err() << "Unexpected file produced: " << bad_file << std::endl;
+        return false;
+      }
 
       return comparePNG(exp_file, out_file);
     }

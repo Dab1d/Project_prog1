@@ -19,7 +19,11 @@ namespace prog {
             //img com dimensões trocadas
             Image *newImg = new Image(altura ,largura);
 
-            //loop para inverter cada pixel da img
+            //loop para rodar para a esquerda através da matriz de rotação [cos(90)  -sin(90)] [x]
+            //                                                             [sin(90)   cos(90)] [y]
+            //x' = -y e y' = x, e ajustando ao refencial da imagem(canto superior esquerdo)
+            //x'= y e y =
+
             for (int y = 0;y < altura;y++) {
                 for (int x = 0;x < largura;x++) {
                     Color base = img->at(x, y);

@@ -1,0 +1,7 @@
+add input/mondrian.png 
+255 255 255
+400 50
+chain
+  scrims/more-scrims/loop1.scrim
+  scrims/more-scrims/end3.scrim
+end
