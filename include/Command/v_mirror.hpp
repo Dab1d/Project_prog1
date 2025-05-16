@@ -16,6 +16,7 @@ namespace prog {
             ~v_mirror();
 
             Image* apply(Image* base_img) override;
+
         };
     }
 }

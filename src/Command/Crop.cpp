@@ -7,7 +7,6 @@
 namespace prog {
     namespace command {
 
-        Crop::Crop() : Command("Crop") {}
 
         Crop::~Crop() {}
 

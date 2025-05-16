@@ -154,6 +154,11 @@ namespace prog {
             input >> larg >> alt;
             return new command::scaleup(larg, alt);
         }
+        if (command_name == "Crop") {
+            int x, y ,w ,h;
+            input >> x >> y >> w >> h;
+            return new command::Crop(x,y,w,h);
+        }
 
         // TODO: implement cases for the new commands
 
