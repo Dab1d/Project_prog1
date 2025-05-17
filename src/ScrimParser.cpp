@@ -19,6 +19,7 @@
 #include "Command/v_mirror.hpp"
 #include "Command/rotate_left.h"
 #include "Command/rotate_right.h"
+#include "Command/resize.h"
 
 
 #include <fstream>
@@ -149,15 +150,23 @@ namespace prog {
         if (command_name == "rotate_right") {
             return new command::rotate_right();
         }
+
         if (command_name == "scaleup") {
             int larg, alt;
             input >> larg >> alt;
             return new command::scaleup(larg, alt);
         }
+
         if (command_name == "crop") {
             int x, y ,w ,h;
             input >> x >> y >> w >> h;
             return new command::crop(x,y,w,h);
+        }
+
+        if (command_name == "resize") {
+            int x, y ,w ,h;
+            input >> x >> y >> w >> h;
+            return new command::resize(x,y,w,h);
         }
 
         // TODO: implement cases for the new commands

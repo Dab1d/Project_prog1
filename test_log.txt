@@ -66,29 +66,33 @@ Command not recognized: 'chain'
 Error while parsing command
 Scrim parse failed
 >>> [16] crop1 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'crop'
+Applying command 'Save filename:output/crop1.png'
 >>> [17] crop2 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/dead-combo.png'
+Applying command 'crop'
+Applying command 'Save filename:output/crop2.png'
 >>> [18] crop3 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'crop'
+Applying command 'crop'
+Applying command 'Save filename:output/crop3.png'
 >>> [19] crop4 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'crop'
+Applying command 'Save filename:output/crop4.png'
 >>> [20] crop5 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'crop'
+Applying command 'crop'
+Applying command 'Save filename:output/crop5.png'
 >>> [21] crop6 <<<
-Command not recognized: 'crop'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/pacman-game.png'
+Applying command 'crop'
+Applying command 'crop'
+Applying command 'crop'
+Applying command 'Save filename:output/crop6.png'
 >>> [22] extra1 <<<
 Applying command 'Blank w:1366 h:600 fill:255:255:255'
 Applying command 'add input/vu.png 255 255 255 0 0'

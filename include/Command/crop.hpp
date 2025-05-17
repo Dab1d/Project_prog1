@@ -4,8 +4,8 @@
 
 #ifndef CROP_HPP
 #define CROP_HPP
-#include "Command.hpp"
 #include <string>
+#include "Command.hpp"
 
 namespace prog {
     namespace command {
