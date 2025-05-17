@@ -22,6 +22,7 @@ namespace prog {
                     newImg->at(x,y) = img->at(x,altura-1-y);
                 }
             }
+            delete img;
             return newImg;
         }
     }
