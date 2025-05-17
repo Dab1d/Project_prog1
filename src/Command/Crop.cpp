@@ -16,7 +16,7 @@ namespace prog {
             // iteradores da nova imagem
             int new_x=0,new_y = 0;
 
-            // upper bounds da nova imagem:
+            // upper bounds da nova imagem, garantido que não ultrapassam os limites anteriores
             int up_x = (x_ + w_ > img->width() )? img->width() : x_ + w_;
             int up_y = (y_ + h_ > img-> height()) ? img->height() : y_ + h_;
 
