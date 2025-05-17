@@ -9,12 +9,12 @@
 
 namespace prog {
     namespace command {
-        class Crop: public Command {
+        class crop: public Command {
 
         public:
-            Crop(int x,int y, int w, int h):Command("Crop"), x_(x),y_(y),w_(w),h_(h) {};
+            crop(int x,int y, int w, int h);
 
-            ~Crop();
+            ~crop();
 
             Image *apply(Image *img) override;
 

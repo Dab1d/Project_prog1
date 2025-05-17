@@ -1,36 +1,43 @@
 //
 // Created by 2006d on 15/05/2025.
 //
-#include "Command/Crop.hpp"
+#include "Command/crop.hpp"
 #include <sstream>
 
 namespace prog {
     namespace command {
 
+        crop::crop(int x,int y, int w, int h):Command("crop"), x_(x),y_(y),w_(w),h_(h) {};
 
-        Crop::~Crop() {}
+        crop::~crop() {}
 
-        Image *Crop::apply(Image *img) {
-            //obter valores da class img
-            int largura = img->width();
-            int altura = img->height();
+        Image *crop::apply(Image *img) {
 
-            Image *newImg = new Image(largura, altura);
+            // iteradores da nova imagem
+            int new_x=0,new_y = 0;
 
-            //loop para inverter cada pixel da img
-            for (int y = 0;y < altura;y++) {
-                for (int x = 0;x < largura;x++) {
-                    Color base = img->at(x, y);
-                    Color alterada(255 - base.red(), 255 - base.green(), 255 - base.blue());
-                    newImg->at(x, y) = alterada;
+            // upper bounds da nova imagem:
+            int up_x = (x_ + w_ > img->width() )? img->width() : x_ + w_;
+            int up_y = (y_ + h_ > img-> height()) ? img->height() : y_ + h_;
+
+            // nova imagem com as dimensões dadas:
+            Image *newImg = new Image(up_x - x_,up_y -y_);
+
+            // loop que percorre a secção da imagem orginal e copia para a nova
+            for (int y = y_ ;y  < up_y;y++) {
+                for (int x = x_; x < up_x ;x++) {
+                    newImg -> at(new_x,new_y ) = img -> at(x,y);
+                    new_x++;
                 }
+                new_x=0;
+                new_y++;
             }
 
             delete img;
             return newImg;
         }
 
-        std::string Crop::toString() const {
+        std::string crop::toString() const {
             std::ostringstream ss;
             ss << name();
             return ss.str();

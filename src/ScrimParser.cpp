@@ -10,7 +10,7 @@
 #include "Command/Invert.hpp"
 #include "Command/To_gray_scale.h"
 #include "Command/Replace.hpp"
-#include "Command/Crop.hpp"
+#include "Command/crop.hpp"
 #include "Command/Slide.hpp"
 #include "Command/add.hpp"
 #include "Command/move.hpp"
@@ -154,10 +154,10 @@ namespace prog {
             input >> larg >> alt;
             return new command::scaleup(larg, alt);
         }
-        if (command_name == "Crop") {
+        if (command_name == "crop") {
             int x, y ,w ,h;
             input >> x >> y >> w >> h;
-            return new command::Crop(x,y,w,h);
+            return new command::crop(x,y,w,h);
         }
 
         // TODO: implement cases for the new commands

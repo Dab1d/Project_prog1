@@ -19,9 +19,12 @@ namespace prog {
         return height_;
     }
 
-    //Função que acede ao valor da cor, podendo ser alterado(mutado)
-    //x representa as colunas(horizontal) e y as linhas(vertical)
-    //e, por definição, o acesso à matriz 2D é feito primeiro ás linhas e depois ás colunas (cor[y][x])
+    // Função que acede ao valor da cor, podendo ser alterado(mutado)
+    //
+    //--> x representa as colunas(horizontal) e y as linhas(vertical)
+    //
+    //--> e, por definição, o acesso à matriz 2D é feito primeiro ás linhas e depois ás colunas (cor[y][x])
+
     Color &Image::at(int x, int y) {
 		return cor[y][x];
     }
