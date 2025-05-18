@@ -38,7 +38,6 @@ namespace prog {
                 new_x=0;
                 new_y++;
             }
-
             delete img;
             return newImg;
         }
