@@ -229,13 +229,13 @@ Applying command 'Replace'
 Applying command 'Replace'
 Applying command 'Save filename:output/replace3.png'
 >>> [45] resize1 <<<
-Command not recognized: 'resize'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'resize'
+Applying command 'Save filename:output/resize1.png'
 >>> [46] resize2 <<<
-Command not recognized: 'resize'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'resize'
+Applying command 'Save filename:output/resize2.png'
 >>> [47] rotate_left1 <<<
 Applying command 'Open filename:input/mondrian.png'
 Applying command 'rotate_left'
