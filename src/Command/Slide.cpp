@@ -1,4 +1,4 @@
-// feito pelo MegaMan(Tiago Ribeiro) en lo dia 12 del 5
+// done by tiago
 
 #include "Command/Slide.hpp"
 #include <sstream>
@@ -6,24 +6,26 @@
 namespace prog {
     namespace command {
 
-        Slide::Slide(int offset_x, int offset_y)
-            : Command("Slide"), x_offset(offset_x), y_offset(offset_y) {}
+        Slide::Slide(int offsetx, int offsety)
+            : Command("Slide"), offsetx(offsetx), offsety(offsety) {}
 
+        // gets the original width and height
         Image* Slide::apply(Image* img) {
-            int larg = img->width();
-            int alt = img->height();
+            int w = img->width();
+            int h = img->height();
 
-            Image* result = new Image(larg, alt);
+            // new blank image, using pointer
+            Image* result = new Image(w, h);
 
-            for (int y = 0; y < alt; y++) {
-                for (int x = 0; x < larg; x++) {
-                    int novo_x = (x + x_offset) % larg;
-                    int novo_y = (y + y_offset) % alt;
+            for (int y = 0; y < h; y++) {
+                for (int x = 0; x < w; x++) {
+                    int novox = (x + offsetx) % w;
+                    int novoy = (y + offsety) % h;
 
-                    if (novo_x < 0) novo_x += larg;
-                    if (novo_y < 0) novo_y += alt;
+                    if (novox < 0) novox += w;
+                    if (novoy < 0) novoy += h;
 
-                    result->at(novo_x, novo_y) = img->at(x, y);
+                    result->at(novox, novoy) = img->at(x, y);
                 }
             }
 
@@ -31,9 +33,9 @@ namespace prog {
             return result;
         }
 
+        // returns the slide offsets used to transform the image
         std::string Slide::toString() const {
-            return "Slide" + std::to_string(x_offset) + " " + std::to_string(y_offset);
+            return "Slide " + std::to_string(offsetx) + " " + std::to_string(offsety);
         }
-
-    } // namespace command
-} // namespace prog
+    }
+}

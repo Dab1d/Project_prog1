@@ -1,4 +1,4 @@
-// feito por MegaMan em 15/5
+// done by tiago
 
 #include "Command/move.hpp"
 #include "Image.hpp"
@@ -11,22 +11,23 @@ namespace prog {
         move::move(int offsetx, int offsety)
             : Command("move"), offsetx(offsetx), offsety(offsety) {}
 
+        // applies the move operation by shifting all pixels with the given offsets
         Image* move::apply(Image* img) {
-            int largura = img->width();
-            int altura = img->height();
+            int w = img->width();
+            int h = img->height();
 
-            // meter o pixel 0,0 como fill
+            // use the pixel at (0, 0) as the fill color
             Color fill = img->at(0, 0);
-            Image* result = new Image(largura, altura, fill);
+            Image* result = new Image(w, h, fill);
 
-            // copiar os pixeis da og e colar na clone
-            for (int y = 0; y < altura; ++y) {
-                for (int x = 0; x < largura; ++x) {
-                    int novox = x + offsetx;
-                    int novoy = y + offsety;
+            for (int y = 0; y < h; ++y) {
+                for (int x = 0; x < w; ++x) {
+                    int newx = x + offsetx;
+                    int newy = y + offsety;
 
-                    if (novox < largura && novoy < altura) {
-                        result->at(novox, novoy) = img->at(x, y);
+                    // copy pixel if destination is in the image bounds
+                    if (newx >= 0 && newx < w && newy >= 0 && newy < h) {
+                        result->at(newx, newy) = img->at(x, y);
                     }
                 }
             }
@@ -35,6 +36,7 @@ namespace prog {
             return result;
         }
 
+        // returns the move command and its offset values as a string
         std::string move::toString() const {
             return "move " + std::to_string(offsetx) + " " + std::to_string(offsety);
         }

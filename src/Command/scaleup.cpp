@@ -1,4 +1,5 @@
-//feito tiago
+// done by tiago
+
 #include "Command/scaleup.hpp"
 #include "Image.hpp"
 #include "Color.hpp"
@@ -7,20 +8,21 @@
 namespace prog {
     namespace command {
 
-        scaleup::scaleup(int factorX, int factorY)
-            : Command("scaleup"), scalex(factorX), scaley(factorY) {}
+        scaleup::scaleup(int factorx, int factory)
+            : Command("scaleup"), scalex(factorx), scaley(factory) {}
 
         Image* scaleup::apply(Image* src) {
             if (!src){
                 return nullptr;
             }
 
+            // declaring widths and heights for the image
             int w = src->width();
             int h = src->height();
             int nw = w * scalex;
             int nh = h * scaley;
 
-            // nova img
+            // new image with scaled dimensions, using pointer
             Image* output = new Image(nw, nh);
 
             for (int j = 0; j < h; ++j) {
@@ -30,7 +32,7 @@ namespace prog {
                     int yy = j * scaley;
                     for (int yyy = yy; yyy < yy + scaley; ++yyy) {
                         for (int xxx = xx; xxx < xx + scalex; ++xxx) {
-                            output->at(xxx, yyy) = c; // copia a cor
+                            output->at(xxx, yyy) = c; // fills the pixels with the respective colour
                         }
                     }
                 }
@@ -39,6 +41,7 @@ namespace prog {
             return output;
         }
 
+        // returns the used values to scaleup the image
         std::string scaleup::toString() const {
             return "scaleup factors => " + std::to_string(scalex) + " , " + std::to_string(scaley);
         }

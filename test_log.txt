@@ -294,19 +294,19 @@ Applying command 'scaleup factors => 1 , 1'
 Applying command 'Save filename:output/scaleup4.png'
 >>> [59] slide1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 0'
+Applying command 'Slide 125 0'
 Applying command 'Save filename:output/slide1.png'
 >>> [60] slide2 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide0 190'
+Applying command 'Slide 0 190'
 Applying command 'Save filename:output/slide2.png'
 >>> [61] slide3 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 190'
+Applying command 'Slide 125 190'
 Applying command 'Save filename:output/slide3.png'
 >>> [62] slide4 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide250 380'
+Applying command 'Slide 250 380'
 Applying command 'Save filename:output/slide4.png'
 >>> [63] to_gray_scale1 <<<
 Applying command 'Open filename:input/pacman.png'

@@ -1,4 +1,4 @@
-// feito pelo MegaMan dia 12 de maio
+// done by tiago
 
 #ifndef PROJECT_COMMAND_SLIDE_HPP
 #define PROJECT_COMMAND_SLIDE_HPP
@@ -10,18 +10,13 @@ namespace prog {
     namespace command {
         class Slide : public Command {
             public:
-
-                Slide(int offset_x, int offset_y);
-
+                Slide(int offsetx, int offsety);
                 Image* apply(Image* img) override;
-
                 std::string toString() const override;
 
             private:
-                int x_offset;
-                int y_offset;
+                int offsetx, offsety;
         };
     }
 }
-
 #endif

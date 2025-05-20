@@ -1,4 +1,4 @@
-// feito megaman 15/5
+// done by tiago
 
 #ifndef MOVE_COMMAND_HEADER
 #define MOVE_COMMAND_HEADER
@@ -16,8 +16,7 @@ namespace prog {
                 std::string toString() const override;
 
             private:
-                int offsetx;
-                int offsety;
+                int offsetx, offsety;
         };
     }
 }

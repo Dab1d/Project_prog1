@@ -117,15 +117,14 @@ namespace prog {
 
         if (command_name == "add") {
             std::string fname;
-            int red, green, blue;
-            int pos_x = 0, pos_y = 0;
-            input >> fname >> red >> green >> blue >> pos_x >> pos_y;
+            int red, green, blue, posx, posy;
+            input >> fname >> red >> green >> blue >> posx >> posy;
             Color filter_color{
                 static_cast<rgb_value>(red),
                 static_cast<rgb_value>(green),
                 static_cast<rgb_value>(blue)
             };
-            auto* cmd = new command::add(fname, filter_color, pos_x, pos_y);
+            auto* cmd = new command::add(fname, filter_color, posx, posy);
             return cmd;
         }
 
