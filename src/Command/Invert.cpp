@@ -15,7 +15,7 @@ namespace prog {
 
             Image *newImg = new Image(largura, altura);
 
-        //loop para inverter cada pixel da img
+        //loop para inverter cada pixel da imagem, pelo seu complemento (255-Color)
         for (int y = 0;y < altura;y++) {
             for (int x = 0;x < largura;x++) {
                 Color base = img->at(x, y);

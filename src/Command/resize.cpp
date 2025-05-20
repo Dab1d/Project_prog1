@@ -22,19 +22,17 @@ namespace prog {
             // nova imagem com as dimensões dadas:
             Image *newImg = new Image(up_x - x_,up_y -y_);
 
-            // loop que percorre a secção da imagem orginal e copia para a nova
+            // loop que percorre a secção da imagem orginal e copia para a nova imagem
             for (int y = y_ ;y  < up_y;y++) {
                 for (int x = x_; x < up_x ;x++) {
-
+                    // se o ponto pertencer à imagem original copia, senão
+                    //o fill é aplicado automaticamente
                     if (x < img->width() && y < img->height() ) {
                         newImg -> at(new_x,new_y ) = img -> at(x,y);
                     }
-                    else {
-                        //não sei explicar esta lina, preenchi a branco e começou a funcionar
-                        newImg -> at(new_x,new_y ) = Color(255,255,255);
-                    }
                     new_x++;
                 }
+                //reinicia o iterador de contagem da linha e passa para a seguinte
                 new_x=0;
                 new_y++;
             }
