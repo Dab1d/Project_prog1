@@ -18,12 +18,13 @@ namespace prog {
 
             Image *newImg = new Image(largura, altura);
 
-            //loop para alterar cada pixel da img
+            //loop para alterar cada pixel da imagem, pela média das componentes (r+g+b)/3
             for (int y = 0;y < altura;y++) {
                 for (int x = 0;x < largura;x++) {
                     Color base = img->at(x, y);
-                    int gray = (base.red() + base.green()+ base.blue())/3;
-                    Color alterada( gray, gray, gray);
+                    //média das componetes
+                    int cinza = (base.red() + base.green()+ base.blue())/3;
+                    Color alterada( cinza, cinza, cinza);
                     newImg->at(x, y) = alterada;
                 }
             }
