@@ -22,10 +22,10 @@ namespace prog {
 
             // loop para rodar para a direita através da matriz de rotação:
             //
-            //    M(90º) = [cos(270°)  -sin(270°)]   [0  1]
+            //    M(270º) = [cos(270°)  -sin(270°)]   [0  1]
             //             [sin(270°)   cos(270°)] = [-1 0]
             //
-            //  M(90º)[x',y'] ==> [y,-x]
+            //  M(270º)[x',y'] ==> [y,-x]
             //
             // e considerando que o eixo oY aponta para baixo y' = -(-x),
             //e o sistema de coordenados da imagem que começa no top left corner temos que
