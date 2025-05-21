@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 >>> [1] add1 <<<
 Applying command 'Blank w:400 h:400 fill:255:0:0'
 Applying command 'add input/lion.png 255 255 255 0 0'
@@ -239,3 +240,20 @@ Scrim parse failed
 Command not recognized: 'v_mirror'
 Error while parsing command
 Scrim parse failed
+=======
+>>> [1] chain1 <<<
+Applying command 'Blank w:400 h:400 fill:255:0:0'
+Applying command 'chain scrims/more-scrims/start1.scrim end'
+Applying command 'Save filename:output/chain1.png'
+Images have different dimensions: 400x400 != 800x800
+>>> [2] chain2 <<<
+Applying command 'Blank w:800 h:800 fill:255:0:0'
+Applying command 'chain scrims/more-scrims/start1.scrim scrims/more-scrims/end2.scrim end'
+Applying command 'Save filename:output/chain2.png'
+Unexpected file produced: ./output/badfile-chain2.png
+>>> [3] chain3 <<<
+Applying command 'Blank w:400 h:400 fill:0:255:0'
+Applying command 'chain scrims/more-scrims/start1.scrim scrims/more-scrims/end3.scrim end'
+Applying command 'Save filename:output/chain3.png'
+Images have different dimensions: 400x400 != 800x800
+>>>>>>> Stashed changes

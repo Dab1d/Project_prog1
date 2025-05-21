@@ -1,8 +1,7 @@
-CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
- /home/megaman/Project_prog1/src/ScrimParser.cpp \
+CMakeFiles/tester.dir/src/Command/chain.cpp.o: \
+ /home/megaman/Project_prog1/src/Command/chain.cpp \
  /usr/include/stdc-predef.h \
- /home/megaman/Project_prog1/include/ScrimParser.hpp \
- /home/megaman/Project_prog1/include/Scrim.hpp \
+ /home/megaman/Project_prog1/include/Command/chain.hpp \
  /home/megaman/Project_prog1/include/Command.hpp \
  /home/megaman/Project_prog1/include/Image.hpp \
  /home/megaman/Project_prog1/include/Color.hpp \
@@ -158,32 +157,19 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/megaman/Project_prog1/include/ScrimParser.hpp \
+ /home/megaman/Project_prog1/include/Scrim.hpp \
+ /home/megaman/Project_prog1/include/Command.hpp \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/megaman/Project_prog1/include/Command/Blank.hpp \
- /home/megaman/Project_prog1/include/Command.hpp \
- /home/megaman/Project_prog1/include/Color.hpp \
- /home/megaman/Project_prog1/include/Command/Save.hpp \
- /home/megaman/Project_prog1/include/Command/Open.hpp \
- /home/megaman/Project_prog1/include/Logger.hpp \
- /home/megaman/Project_prog1/include/Command/Invert.hpp \
- /home/megaman/Project_prog1/include/Command/to_gray_scale.h \
- /home/megaman/Project_prog1/include/Image.hpp \
- /home/megaman/Project_prog1/include/Command/replace.h \
- /home/megaman/Project_prog1/include/Command/slide.hpp \
- /home/megaman/Project_prog1/include/Command/add.hpp \
-<<<<<<< Updated upstream
- /home/megaman/Project_prog1/include/Command/move.hpp
-=======
- /home/megaman/Project_prog1/include/Command/move.hpp \
- /home/megaman/Project_prog1/include/Command/h_mirror.hpp \
- /home/megaman/Project_prog1/include/Command/scaleup.hpp \
- /home/megaman/Project_prog1/include/Command/v_mirror.hpp \
- /home/megaman/Project_prog1/include/Command/rotate_left.h \
- /home/megaman/Project_prog1/include/Command/rotate_right.h \
- /home/megaman/Project_prog1/include/Command/resize.h \
- /home/megaman/Project_prog1/include/Command/chain.hpp
->>>>>>> Stashed changes
+ /home/megaman/Project_prog1/include/Scrim.hpp \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h

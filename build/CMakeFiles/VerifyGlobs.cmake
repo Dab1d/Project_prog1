@@ -11,7 +11,12 @@ set(OLD_GLOB
   "/home/megaman/Project_prog1/src/Command/Open.cpp"
   "/home/megaman/Project_prog1/src/Command/Save.cpp"
   "/home/megaman/Project_prog1/src/Command/add.cpp"
+<<<<<<< Updated upstream
   "/home/megaman/Project_prog1/src/Command/invert.cpp"
+=======
+  "/home/megaman/Project_prog1/src/Command/chain.cpp"
+  "/home/megaman/Project_prog1/src/Command/h_mirror.cpp"
+>>>>>>> Stashed changes
   "/home/megaman/Project_prog1/src/Command/move.cpp"
   "/home/megaman/Project_prog1/src/Command/replace.cpp"
   "/home/megaman/Project_prog1/src/Command/slide.cpp"

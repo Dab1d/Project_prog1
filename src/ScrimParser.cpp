@@ -15,7 +15,16 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
+<<<<<<< Updated upstream
 #include "Command/v_mirror.h"
+=======
+#include "Command/scaleup.hpp"
+#include "Command/v_mirror.hpp"
+#include "Command/rotate_left.h"
+#include "Command/rotate_right.h"
+#include "Command/resize.h"
+#include "Command/chain.hpp"
+>>>>>>> Stashed changes
 
 
 #include <fstream>
@@ -139,6 +148,47 @@ namespace prog {
             return new command::v_mirror();
         }
 
+<<<<<<< Updated upstream
+=======
+        if (command_name == "rotate_left") {
+            return new command::rotate_left();
+        }
+
+        if (command_name == "rotate_right") {
+            return new command::rotate_right();
+        }
+
+        if (command_name == "scaleup") {
+            int w, h;
+            input >> w >> h;
+            return new command::scaleup(w, h);
+        }
+
+        if (command_name == "crop") {
+            int x, y ,w ,h;
+            input >> x >> y >> w >> h;
+            return new command::crop(x,y,w,h);
+        }
+
+        if (command_name == "resize") {
+            int x, y ,w ,h;
+            input >> x >> y >> w >> h;
+            return new command::resize(x,y,w,h);
+        }
+
+        if (command_name == "chain"){
+            // input variable and a store list for the filenames
+            vector< string> list;
+            string x;
+
+            // reads the inputs and stores them to the list
+            while (input >> x && x != "end") {
+               list.push_back(x); //
+            }
+            return new command::chain(list);
+        }
+
+>>>>>>> Stashed changes
         // TODO: implement cases for the new commands
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";

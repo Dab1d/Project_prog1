@@ -13,8 +13,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/Save.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/add.cpp.o"
   "CMakeFiles/tester.dir/src/Command/add.cpp.o.d"
+<<<<<<< Updated upstream
   "CMakeFiles/tester.dir/src/Command/invert.cpp.o"
   "CMakeFiles/tester.dir/src/Command/invert.cpp.o.d"
+=======
+  "CMakeFiles/tester.dir/src/Command/chain.cpp.o"
+  "CMakeFiles/tester.dir/src/Command/chain.cpp.o.d"
+  "CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o"
+  "CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o.d"
+>>>>>>> Stashed changes
   "CMakeFiles/tester.dir/src/Command/move.cpp.o"
   "CMakeFiles/tester.dir/src/Command/move.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/replace.cpp.o"

@@ -13,8 +13,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d"
   "CMakeFiles/runscrim.dir/src/Command/add.cpp.o"
   "CMakeFiles/runscrim.dir/src/Command/add.cpp.o.d"
+<<<<<<< Updated upstream
   "CMakeFiles/runscrim.dir/src/Command/invert.cpp.o"
   "CMakeFiles/runscrim.dir/src/Command/invert.cpp.o.d"
+=======
+  "CMakeFiles/runscrim.dir/src/Command/chain.cpp.o"
+  "CMakeFiles/runscrim.dir/src/Command/chain.cpp.o.d"
+  "CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o"
+  "CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o.d"
+>>>>>>> Stashed changes
   "CMakeFiles/runscrim.dir/src/Command/move.cpp.o"
   "CMakeFiles/runscrim.dir/src/Command/move.cpp.o.d"
   "CMakeFiles/runscrim.dir/src/Command/replace.cpp.o"

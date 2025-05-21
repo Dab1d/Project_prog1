@@ -366,8 +366,40 @@ src/Command/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/add.cpp.s
 .PHONY : src/Command/add.cpp.s
 
+<<<<<<< Updated upstream
 src/Command/invert.o: src/Command/invert.cpp.o
 .PHONY : src/Command/invert.o
+=======
+src/Command/chain.o: src/Command/chain.cpp.o
+.PHONY : src/Command/chain.o
+
+# target to build an object file
+src/Command/chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.o
+.PHONY : src/Command/chain.cpp.o
+
+src/Command/chain.i: src/Command/chain.cpp.i
+.PHONY : src/Command/chain.i
+
+# target to preprocess a source file
+src/Command/chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.i
+.PHONY : src/Command/chain.cpp.i
+
+src/Command/chain.s: src/Command/chain.cpp.s
+.PHONY : src/Command/chain.s
+
+# target to generate assembly for a file
+src/Command/chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.s
+.PHONY : src/Command/chain.cpp.s
+
+src/Command/h_mirror.o: src/Command/h_mirror.cpp.o
+.PHONY : src/Command/h_mirror.o
+>>>>>>> Stashed changes
 
 # target to build an object file
 src/Command/invert.cpp.o:
@@ -698,9 +730,18 @@ help:
 	@echo "... src/Command/add.o"
 	@echo "... src/Command/add.i"
 	@echo "... src/Command/add.s"
+<<<<<<< Updated upstream
 	@echo "... src/Command/invert.o"
 	@echo "... src/Command/invert.i"
 	@echo "... src/Command/invert.s"
+=======
+	@echo "... src/Command/chain.o"
+	@echo "... src/Command/chain.i"
+	@echo "... src/Command/chain.s"
+	@echo "... src/Command/h_mirror.o"
+	@echo "... src/Command/h_mirror.i"
+	@echo "... src/Command/h_mirror.s"
+>>>>>>> Stashed changes
 	@echo "... src/Command/move.o"
 	@echo "... src/Command/move.i"
 	@echo "... src/Command/move.s"

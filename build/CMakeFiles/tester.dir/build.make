@@ -153,11 +153,33 @@ CMakeFiles/tester.dir/src/Command/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/add.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/add.cpp -o CMakeFiles/tester.dir/src/Command/add.cpp.s
 
+<<<<<<< Updated upstream
 CMakeFiles/tester.dir/src/Command/invert.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/invert.cpp.o: /home/megaman/Project_prog1/src/Command/invert.cpp
 CMakeFiles/tester.dir/src/Command/invert.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tester.dir/src/Command/invert.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/invert.cpp.o -MF CMakeFiles/tester.dir/src/Command/invert.cpp.o.d -o CMakeFiles/tester.dir/src/Command/invert.cpp.o -c /home/megaman/Project_prog1/src/Command/invert.cpp
+=======
+CMakeFiles/tester.dir/src/Command/chain.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/chain.cpp.o: /home/megaman/Project_prog1/src/Command/chain.cpp
+CMakeFiles/tester.dir/src/Command/chain.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Command/chain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/chain.cpp.o -MF CMakeFiles/tester.dir/src/Command/chain.cpp.o.d -o CMakeFiles/tester.dir/src/Command/chain.cpp.o -c /home/megaman/Project_prog1/src/Command/chain.cpp
+
+CMakeFiles/tester.dir/src/Command/chain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/chain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/chain.cpp > CMakeFiles/tester.dir/src/Command/chain.cpp.i
+
+CMakeFiles/tester.dir/src/Command/chain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/chain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/chain.cpp -o CMakeFiles/tester.dir/src/Command/chain.cpp.s
+
+CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o: /home/megaman/Project_prog1/src/Command/h_mirror.cpp
+CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o -c /home/megaman/Project_prog1/src/Command/h_mirror.cpp
+>>>>>>> Stashed changes
 
 CMakeFiles/tester.dir/src/Command/invert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/invert.cpp.i"
@@ -170,7 +192,11 @@ CMakeFiles/tester.dir/src/Command/invert.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Command/move.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/move.cpp.o: /home/megaman/Project_prog1/src/Command/move.cpp
 CMakeFiles/tester.dir/src/Command/move.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tester.dir/src/Command/move.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/Command/move.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/move.cpp.o -MF CMakeFiles/tester.dir/src/Command/move.cpp.o.d -o CMakeFiles/tester.dir/src/Command/move.cpp.o -c /home/megaman/Project_prog1/src/Command/move.cpp
 
 CMakeFiles/tester.dir/src/Command/move.cpp.i: cmake_force
@@ -181,11 +207,19 @@ CMakeFiles/tester.dir/src/Command/move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/move.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/move.cpp -o CMakeFiles/tester.dir/src/Command/move.cpp.s
 
+<<<<<<< Updated upstream
 CMakeFiles/tester.dir/src/Command/replace.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/replace.cpp.o: /home/megaman/Project_prog1/src/Command/replace.cpp
 CMakeFiles/tester.dir/src/Command/replace.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tester.dir/src/Command/replace.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/replace.cpp.o -MF CMakeFiles/tester.dir/src/Command/replace.cpp.o.d -o CMakeFiles/tester.dir/src/Command/replace.cpp.o -c /home/megaman/Project_prog1/src/Command/replace.cpp
+=======
+CMakeFiles/tester.dir/src/Command/resize.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/resize.cpp.o: /home/megaman/Project_prog1/src/Command/resize.cpp
+CMakeFiles/tester.dir/src/Command/resize.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Command/resize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/resize.cpp.o -MF CMakeFiles/tester.dir/src/Command/resize.cpp.o.d -o CMakeFiles/tester.dir/src/Command/resize.cpp.o -c /home/megaman/Project_prog1/src/Command/resize.cpp
+>>>>>>> Stashed changes
 
 CMakeFiles/tester.dir/src/Command/replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/replace.cpp.i"
@@ -195,11 +229,19 @@ CMakeFiles/tester.dir/src/Command/replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/replace.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/replace.cpp -o CMakeFiles/tester.dir/src/Command/replace.cpp.s
 
+<<<<<<< Updated upstream
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: /home/megaman/Project_prog1/src/Command/slide.cpp
 CMakeFiles/tester.dir/src/Command/slide.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tester.dir/src/Command/slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/slide.cpp.o -MF CMakeFiles/tester.dir/src/Command/slide.cpp.o.d -o CMakeFiles/tester.dir/src/Command/slide.cpp.o -c /home/megaman/Project_prog1/src/Command/slide.cpp
+=======
+CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o: /home/megaman/Project_prog1/src/Command/rotate_left.cpp
+CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o -MF CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o.d -o CMakeFiles/tester.dir/src/Command/rotate_left.cpp.o -c /home/megaman/Project_prog1/src/Command/rotate_left.cpp
+>>>>>>> Stashed changes
 
 CMakeFiles/tester.dir/src/Command/slide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/slide.cpp.i"
@@ -209,24 +251,70 @@ CMakeFiles/tester.dir/src/Command/slide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/slide.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/slide.cpp -o CMakeFiles/tester.dir/src/Command/slide.cpp.s
 
+<<<<<<< Updated upstream
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o -MF CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o.d -o CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o -c /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
+=======
+CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o: /home/megaman/Project_prog1/src/Command/rotate_right.cpp
+CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o -MF CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o.d -o CMakeFiles/tester.dir/src/Command/rotate_right.cpp.o -c /home/megaman/Project_prog1/src/Command/rotate_right.cpp
+>>>>>>> Stashed changes
 
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.i"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp > CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.i
 
+<<<<<<< Updated upstream
 CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp -o CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.s
+=======
+CMakeFiles/tester.dir/src/Command/rotate_right.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/rotate_right.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/rotate_right.cpp -o CMakeFiles/tester.dir/src/Command/rotate_right.cpp.s
+
+CMakeFiles/tester.dir/src/Command/scaleup.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/scaleup.cpp.o: /home/megaman/Project_prog1/src/Command/scaleup.cpp
+CMakeFiles/tester.dir/src/Command/scaleup.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/src/Command/scaleup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/scaleup.cpp.o -MF CMakeFiles/tester.dir/src/Command/scaleup.cpp.o.d -o CMakeFiles/tester.dir/src/Command/scaleup.cpp.o -c /home/megaman/Project_prog1/src/Command/scaleup.cpp
+
+CMakeFiles/tester.dir/src/Command/scaleup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/scaleup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/scaleup.cpp > CMakeFiles/tester.dir/src/Command/scaleup.cpp.i
+
+CMakeFiles/tester.dir/src/Command/scaleup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/scaleup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/scaleup.cpp -o CMakeFiles/tester.dir/src/Command/scaleup.cpp.s
+
+CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o: CMakeFiles/tester.dir/flags.make
+CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o: /home/megaman/Project_prog1/src/Command/v_mirror.cpp
+CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o -MF CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o.d -o CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o -c /home/megaman/Project_prog1/src/Command/v_mirror.cpp
+
+CMakeFiles/tester.dir/src/Command/v_mirror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tester.dir/src/Command/v_mirror.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/v_mirror.cpp > CMakeFiles/tester.dir/src/Command/v_mirror.cpp.i
+
+CMakeFiles/tester.dir/src/Command/v_mirror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tester.dir/src/Command/v_mirror.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/v_mirror.cpp -o CMakeFiles/tester.dir/src/Command/v_mirror.cpp.s
+>>>>>>> Stashed changes
 
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Image.cpp.o: /home/megaman/Project_prog1/src/Image.cpp
 CMakeFiles/tester.dir/src/Image.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tester.dir/src/Image.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Image.cpp.o -MF CMakeFiles/tester.dir/src/Image.cpp.o.d -o CMakeFiles/tester.dir/src/Image.cpp.o -c /home/megaman/Project_prog1/src/Image.cpp
 
 CMakeFiles/tester.dir/src/Image.cpp.i: cmake_force
@@ -240,7 +328,11 @@ CMakeFiles/tester.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Logger.cpp.o: /home/megaman/Project_prog1/src/Logger.cpp
 CMakeFiles/tester.dir/src/Logger.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tester.dir/src/Logger.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Logger.cpp.o -MF CMakeFiles/tester.dir/src/Logger.cpp.o.d -o CMakeFiles/tester.dir/src/Logger.cpp.o -c /home/megaman/Project_prog1/src/Logger.cpp
 
 CMakeFiles/tester.dir/src/Logger.cpp.i: cmake_force
@@ -254,7 +346,11 @@ CMakeFiles/tester.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/PNG.cpp.o: /home/megaman/Project_prog1/src/PNG.cpp
 CMakeFiles/tester.dir/src/PNG.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tester.dir/src/PNG.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/PNG.cpp.o -MF CMakeFiles/tester.dir/src/PNG.cpp.o.d -o CMakeFiles/tester.dir/src/PNG.cpp.o -c /home/megaman/Project_prog1/src/PNG.cpp
 
 CMakeFiles/tester.dir/src/PNG.cpp.i: cmake_force
@@ -268,7 +364,11 @@ CMakeFiles/tester.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Scrim.cpp.o: /home/megaman/Project_prog1/src/Scrim.cpp
 CMakeFiles/tester.dir/src/Scrim.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tester.dir/src/Scrim.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Scrim.cpp.o -MF CMakeFiles/tester.dir/src/Scrim.cpp.o.d -o CMakeFiles/tester.dir/src/Scrim.cpp.o -c /home/megaman/Project_prog1/src/Scrim.cpp
 
 CMakeFiles/tester.dir/src/Scrim.cpp.i: cmake_force
@@ -282,7 +382,11 @@ CMakeFiles/tester.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: /home/megaman/Project_prog1/src/ScrimParser.cpp
 CMakeFiles/tester.dir/src/ScrimParser.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tester.dir/src/ScrimParser.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/ScrimParser.cpp.o -MF CMakeFiles/tester.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/tester.dir/src/ScrimParser.cpp.o -c /home/megaman/Project_prog1/src/ScrimParser.cpp
 
 CMakeFiles/tester.dir/src/ScrimParser.cpp.i: cmake_force
@@ -296,7 +400,11 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/src/Utils.cpp.o: /home/megaman/Project_prog1/src/Utils.cpp
 CMakeFiles/tester.dir/src/Utils.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tester.dir/src/Utils.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/src/Utils.cpp.o -MF CMakeFiles/tester.dir/src/Utils.cpp.o.d -o CMakeFiles/tester.dir/src/Utils.cpp.o -c /home/megaman/Project_prog1/src/Utils.cpp
 
 CMakeFiles/tester.dir/src/Utils.cpp.i: cmake_force
@@ -310,7 +418,11 @@ CMakeFiles/tester.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/flags.make
 CMakeFiles/tester.dir/main/Tester.cpp.o: /home/megaman/Project_prog1/main/Tester.cpp
 CMakeFiles/tester.dir/main/Tester.cpp.o: CMakeFiles/tester.dir/compiler_depend.ts
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tester.dir/main/Tester.cpp.o"
+>>>>>>> Stashed changes
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tester.dir/main/Tester.cpp.o -MF CMakeFiles/tester.dir/main/Tester.cpp.o.d -o CMakeFiles/tester.dir/main/Tester.cpp.o -c /home/megaman/Project_prog1/main/Tester.cpp
 
 CMakeFiles/tester.dir/main/Tester.cpp.i: cmake_force
@@ -329,7 +441,12 @@ tester_OBJECTS = \
 "CMakeFiles/tester.dir/src/Command/Open.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/Save.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/add.cpp.o" \
+<<<<<<< Updated upstream
 "CMakeFiles/tester.dir/src/Command/invert.cpp.o" \
+=======
+"CMakeFiles/tester.dir/src/Command/chain.cpp.o" \
+"CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o" \
+>>>>>>> Stashed changes
 "CMakeFiles/tester.dir/src/Command/move.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/replace.cpp.o" \
 "CMakeFiles/tester.dir/src/Command/slide.cpp.o" \
@@ -351,7 +468,12 @@ tester: CMakeFiles/tester.dir/src/Command/Blank.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/Open.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/Save.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/add.cpp.o
+<<<<<<< Updated upstream
 tester: CMakeFiles/tester.dir/src/Command/invert.cpp.o
+=======
+tester: CMakeFiles/tester.dir/src/Command/chain.cpp.o
+tester: CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o
+>>>>>>> Stashed changes
 tester: CMakeFiles/tester.dir/src/Command/move.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/replace.cpp.o
 tester: CMakeFiles/tester.dir/src/Command/slide.cpp.o
@@ -365,7 +487,11 @@ tester: CMakeFiles/tester.dir/src/Utils.cpp.o
 tester: CMakeFiles/tester.dir/main/Tester.cpp.o
 tester: CMakeFiles/tester.dir/build.make
 tester: CMakeFiles/tester.dir/link.txt
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable tester"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable tester"
+>>>>>>> Stashed changes
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
