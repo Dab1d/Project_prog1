@@ -1,5 +1,5 @@
-CMakeFiles/tester.dir/src/Command/invert.cpp.o: \
- /home/megaman/Project_prog1/src/Command/invert.cpp \
+CMakeFiles/tester.dir/src/Command/Invert.cpp.o: \
+ /home/megaman/Project_prog1/src/Command/Invert.cpp \
  /usr/include/stdc-predef.h \
  /home/megaman/Project_prog1/include/Command/Invert.hpp \
  /home/megaman/Project_prog1/include/Command.hpp \

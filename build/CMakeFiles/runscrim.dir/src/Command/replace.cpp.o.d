@@ -1,5 +1,5 @@
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.o: \
- /home/megaman/Project_prog1/src/Command/replace.cpp \
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: \
+ /home/megaman/Project_prog1/src/Command/Replace.cpp \
  /usr/include/stdc-predef.h \
  /home/megaman/Project_prog1/include/Command.hpp \
  /home/megaman/Project_prog1/include/Image.hpp \
@@ -157,7 +157,6 @@ CMakeFiles/runscrim.dir/src/Command/replace.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/megaman/Project_prog1/include/Command/replace.h \
+ /home/megaman/Project_prog1/include/Command/Replace.hpp \
  /home/megaman/Project_prog1/include/Image.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc

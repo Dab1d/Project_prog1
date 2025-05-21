@@ -15,8 +15,9 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
-#include "Command/scaleup.hpp"
 #include "Command/v_mirror.hpp"
+#include "Command/fill.h"
+#include "Command/scaleup.hpp"
 #include "Command/rotate_left.h"
 #include "Command/rotate_right.h"
 #include "Command/resize.h"
@@ -144,6 +145,12 @@ namespace prog {
 
         if (command_name == "rotate_left") {
             return new command::rotate_left();
+        }
+
+        if (command_name == "fill") {
+            int x, y, w, h, r, g, b;
+            input >> x >> y >> w >> h >> r >> g >> b;
+            return new command::fill(x, y, w, h, r, g, b);
         }
 
         if (command_name == "rotate_right") {

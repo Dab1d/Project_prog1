@@ -1,5 +1,5 @@
-CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: \
- /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp \
+CMakeFiles/tester.dir/src/Command/To_gray_scale.cpp.o: \
+ /home/megaman/Project_prog1/src/Command/To_gray_scale.cpp \
  /usr/include/stdc-predef.h \
  /home/megaman/Project_prog1/include/Command.hpp \
  /home/megaman/Project_prog1/include/Image.hpp \
@@ -157,6 +157,6 @@ CMakeFiles/tester.dir/src/Command/to_gray_scale.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/megaman/Project_prog1/include/Command/to_gray_scale.h \
+ /home/megaman/Project_prog1/include/Command/To_gray_scale.h \
  /home/megaman/Project_prog1/include/Image.hpp \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc

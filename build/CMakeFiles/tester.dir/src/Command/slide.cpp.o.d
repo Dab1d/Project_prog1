@@ -1,7 +1,7 @@
-CMakeFiles/tester.dir/src/Command/slide.cpp.o: \
- /home/megaman/Project_prog1/src/Command/slide.cpp \
+CMakeFiles/tester.dir/src/Command/Slide.cpp.o: \
+ /home/megaman/Project_prog1/src/Command/Slide.cpp \
  /usr/include/stdc-predef.h \
- /home/megaman/Project_prog1/include/Command/slide.hpp \
+ /home/megaman/Project_prog1/include/Command/Slide.hpp \
  /home/megaman/Project_prog1/include/Command.hpp \
  /home/megaman/Project_prog1/include/Image.hpp \
  /home/megaman/Project_prog1/include/Color.hpp \
