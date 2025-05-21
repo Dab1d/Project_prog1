@@ -22,8 +22,12 @@ namespace prog {
                     int novox = (x + offsetx) % w;
                     int novoy = (y + offsety) % h;
 
-                    if (novox < 0) novox += w;
-                    if (novoy < 0) novoy += h;
+                    if (novox < 0){
+                        novox += w;
+                    }
+                    if (novoy < 0){
+                        novoy += h;
+                    }
 
                     result->at(novox, novoy) = img->at(x, y);
                 }
@@ -34,8 +38,8 @@ namespace prog {
         }
 
         // returns the slide offsets used to transform the image
-        std::string Slide::toString() const {
-            return "Slide " + std::to_string(offsetx) + " " + std::to_string(offsety);
+        string Slide::toString() const {
+            return "Slide " + to_string(offsetx) + " " + to_string(offsety);
         }
     }
 }

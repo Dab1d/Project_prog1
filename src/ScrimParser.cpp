@@ -96,9 +96,9 @@ namespace prog {
         }
 
         if (command_name == "slide") {
-            int x_offset,y_offset;
-            input >> x_offset >> y_offset;
-            return   new command::Slide(x_offset, y_offset);
+            int offsetx, offsety;
+            input >> offsetx >> offsety;
+            return   new command::Slide(offsetx, offsety);
         }
 
         if (command_name == "invert") {
@@ -151,9 +151,9 @@ namespace prog {
         }
 
         if (command_name == "scaleup") {
-            int larg, alt;
-            input >> larg >> alt;
-            return new command::scaleup(larg, alt);
+            int w, h;
+            input >> w >> h;
+            return new command::scaleup(w, h);
         }
 
         if (command_name == "crop") {

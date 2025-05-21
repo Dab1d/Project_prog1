@@ -6,7 +6,7 @@
 namespace prog {
     namespace command {
 
-        add::add(const std::string& file_path, const Color& ignore_color, int posx, int posy)
+        add::add(const string& file_path, const Color& ignore_color, int posx, int posy)
             : Command("add"), file_path(file_path), ignore_color(ignore_color),
               posx(posx), posy(posy) {}
 
@@ -45,13 +45,13 @@ namespace prog {
             return base_img;
         }
         // returns the necessary strings
-        std::string add::toString() const {
+        string add::toString() const {
             return "add " + file_path + " "
-                   + std::to_string(ignore_color.red()) + " "
-                   + std::to_string(ignore_color.green()) + " "
-                   + std::to_string(ignore_color.blue()) + " "
-                   + std::to_string(posx) + " "
-                   + std::to_string(posy);
+                   + to_string(ignore_color.red()) + " "
+                   + to_string(ignore_color.green()) + " "
+                   + to_string(ignore_color.blue()) + " "
+                   + to_string(posx) + " "
+                   + to_string(posy);
         }
     }
 }

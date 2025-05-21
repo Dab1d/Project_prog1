@@ -7,13 +7,15 @@
 #include "Color.hpp"
 #include <string>
 
+using namespace std;
+
 namespace prog {
     namespace command {
         class scaleup : public Command {
         public:
             scaleup(int factorx, int factory);
             Image* apply(Image* src) override;
-            std::string toString() const override;
+            string toString() const override;
 
         private:
             int scalex, scaley;

@@ -7,13 +7,15 @@
 #include "Color.hpp"
 #include <string>
 
+using namespace std;
+
 namespace prog {
     namespace command {
         class move : public Command {
             public:
                 move(int offsetx, int offsety);
                 Image* apply(Image* img) override;
-                std::string toString() const override;
+                string toString() const override;
 
             private:
                 int offsetx, offsety;

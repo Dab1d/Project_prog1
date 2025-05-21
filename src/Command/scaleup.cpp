@@ -42,8 +42,8 @@ namespace prog {
         }
 
         // returns the used values to scaleup the image
-        std::string scaleup::toString() const {
-            return "scaleup factors => " + std::to_string(scalex) + " , " + std::to_string(scaley);
+        string scaleup::toString() const {
+            return "scaleup factors => " + to_string(scalex) + " , " + to_string(scaley);
         }
     }
 }

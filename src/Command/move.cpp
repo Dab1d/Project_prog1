@@ -37,8 +37,8 @@ namespace prog {
         }
 
         // returns the move command and its offset values as a string
-        std::string move::toString() const {
-            return "move " + std::to_string(offsetx) + " " + std::to_string(offsety);
+        string move::toString() const {
+            return "move " + to_string(offsetx) + " " + to_string(offsety);
         }
     }
 }
