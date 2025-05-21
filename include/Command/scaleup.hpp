@@ -1,5 +1,3 @@
-//done by tiago
-
 #ifndef SCALEUP_COMMAND_HEADER
 #define SCALEUP_COMMAND_HEADER
 
@@ -13,7 +11,7 @@ namespace prog {
     namespace command {
         class scaleup : public Command {
         public:
-            scaleup(int factorx, int factory);
+            scaleup(int factorx, int factory); // construtor
             Image* apply(Image* src) override;
             string toString() const override;
 

@@ -1,19 +1,17 @@
-// done by tiago
-
 #include "Command/add.hpp"
 #include "PNG.hpp"
 
 namespace prog {
     namespace command {
 
-        add::add(const string& file_path, const Color& ignore_color, int posx, int posy)
+        add::add(const string& file_path, const Color& ignore_color, int posx, int posy) // construtor
             : Command("add"), file_path(file_path), ignore_color(ignore_color),
               posx(posx), posy(posy) {}
 
         Image* add::apply(Image* base_img) {
-            Image* overlay_img = loadFromPNG(file_path);
+            Image* overlay_img = loadFromPNG(file_path); // imagem de sobreposição
 
-            // get dimensions of both base and overlay images
+            // dimensões da imagem base e imagem de sobreposição
             int dest_w = base_img->width();
             int dest_h = base_img->height();
             int src_w = overlay_img->width();
@@ -23,18 +21,18 @@ namespace prog {
                 for (int sx = 0; sx < src_w; ++sx) {
                     const Color& pixel = overlay_img->at(sx, sy);
 
-                    // skip pixels that match the ignore color
+                    // ignora os pixels que deve ignorar
                     if (pixel.red() == ignore_color.red() &&
                         pixel.green() == ignore_color.green() &&
                         pixel.blue() == ignore_color.blue()) {
                         continue;
                     }
 
-                    // destination position
+                    // posição de destino na imagem base
                     int tx = posx + sx;
                     int ty = posy + sy;
 
-                    // only copy pixels in the bounds of the base image
+                    // copia o pixel só se estiver dentro dos limites da imagem base
                     if (tx >= 0 && tx < dest_w && ty >= 0 && ty < dest_h) {
                         base_img->at(tx, ty) = pixel;
                     }
@@ -44,7 +42,8 @@ namespace prog {
             delete overlay_img;
             return base_img;
         }
-        // returns the necessary strings
+
+        // retorna a string comando e parâmetros
         string add::toString() const {
             return "add " + file_path + " "
                    + to_string(ignore_color.red()) + " "

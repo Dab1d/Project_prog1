@@ -117,7 +117,7 @@ namespace prog {
         }
 
         if (command_name == "add") {
-            std::string fname;
+            string fname;
             int red, green, blue, posx, posy;
             input >> fname >> red >> green >> blue >> posx >> posy;
             Color filter_color{
@@ -125,8 +125,7 @@ namespace prog {
                 static_cast<rgb_value>(green),
                 static_cast<rgb_value>(blue)
             };
-            auto* cmd = new command::add(fname, filter_color, posx, posy);
-            return cmd;
+            return new command::add(fname, filter_color, posx, posy);
         }
 
         if (command_name == "move") {

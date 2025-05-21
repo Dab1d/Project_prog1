@@ -1,5 +1,3 @@
-// done by tiago
-
 #include "Command/Slide.hpp"
 #include <sstream>
 
@@ -9,12 +7,12 @@ namespace prog {
         Slide::Slide(int offsetx, int offsety)
             : Command("Slide"), offsetx(offsetx), offsety(offsety) {}
 
-        // gets the original width and height
+        // vai buscar a largura e altura originais
         Image* Slide::apply(Image* img) {
             int w = img->width();
             int h = img->height();
 
-            // new blank image, using pointer
+            // nova imagem vazia, usando pointer
             Image* result = new Image(w, h);
 
             for (int y = 0; y < h; y++) {
@@ -37,7 +35,7 @@ namespace prog {
             return result;
         }
 
-        // returns the slide offsets used to transform the image
+        // retorna os offsets usados para deslizar a imagem
         string Slide::toString() const {
             return "Slide " + to_string(offsetx) + " " + to_string(offsety);
         }

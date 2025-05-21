@@ -1,5 +1,3 @@
-// done by tiago
-
 #ifndef ADD_COMMAND_HEADER
 #define ADD_COMMAND_HEADER
 
@@ -13,7 +11,7 @@ namespace prog {
     namespace command {
         class add : public Command {
         public:
-            add(const string& file_path, const Color& ignore_color, int posx, int posy);
+            add(const string& file_path, const Color& ignore_color, int posx, int posy); // construtor
             Image* apply(Image* base_img) override;
             string toString() const override;
 

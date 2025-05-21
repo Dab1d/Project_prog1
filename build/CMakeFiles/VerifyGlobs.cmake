@@ -16,6 +16,7 @@ set(OLD_GLOB
   "/home/megaman/Project_prog1/src/Command/Slide.cpp"
   "/home/megaman/Project_prog1/src/Command/To_gray_scale.cpp"
   "/home/megaman/Project_prog1/src/Command/add.cpp"
+  "/home/megaman/Project_prog1/src/Command/fill.cpp"
   "/home/megaman/Project_prog1/src/Command/h_mirror.cpp"
   "/home/megaman/Project_prog1/src/Command/move.cpp"
   "/home/megaman/Project_prog1/src/Command/resize.cpp"

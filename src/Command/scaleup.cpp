@@ -1,5 +1,3 @@
-// done by tiago
-
 #include "Command/scaleup.hpp"
 #include "Image.hpp"
 #include "Color.hpp"
@@ -8,21 +6,21 @@
 namespace prog {
     namespace command {
 
-        scaleup::scaleup(int factorx, int factory)
+        scaleup::scaleup(int factorx, int factory) // construtor
             : Command("scaleup"), scalex(factorx), scaley(factory) {}
 
         Image* scaleup::apply(Image* src) {
             if (!src){
-                return nullptr;
+                return nullptr; //retorna nulo se a imagem for inválida
             }
 
-            // declaring widths and heights for the image
+            // declaração de alturas e larguras
             int w = src->width();
             int h = src->height();
             int nw = w * scalex;
             int nh = h * scaley;
 
-            // new image with scaled dimensions, using pointer
+            // nova imagem com dimensões ampliadas, usando pointers
             Image* output = new Image(nw, nh);
 
             for (int j = 0; j < h; ++j) {
@@ -32,7 +30,7 @@ namespace prog {
                     int yy = j * scaley;
                     for (int yyy = yy; yyy < yy + scaley; ++yyy) {
                         for (int xxx = xx; xxx < xx + scalex; ++xxx) {
-                            output->at(xxx, yyy) = c; // fills the pixels with the respective colour
+                            output->at(xxx, yyy) = c; // preenche os pixeis com a respetiva cor
                         }
                     }
                 }
@@ -41,7 +39,7 @@ namespace prog {
             return output;
         }
 
-        // returns the used values to scaleup the image
+        // retorna os valores usados para ampliar a imagem
         string scaleup::toString() const {
             return "scaleup factors => " + to_string(scalex) + " , " + to_string(scaley);
         }

@@ -501,6 +501,33 @@ src/Command/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/add.cpp.s
 .PHONY : src/Command/add.cpp.s
 
+src/Command/fill.o: src/Command/fill.cpp.o
+.PHONY : src/Command/fill.o
+
+# target to build an object file
+src/Command/fill.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/fill.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/fill.cpp.o
+.PHONY : src/Command/fill.cpp.o
+
+src/Command/fill.i: src/Command/fill.cpp.i
+.PHONY : src/Command/fill.i
+
+# target to preprocess a source file
+src/Command/fill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/fill.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/fill.cpp.i
+.PHONY : src/Command/fill.cpp.i
+
+src/Command/fill.s: src/Command/fill.cpp.s
+.PHONY : src/Command/fill.s
+
+# target to generate assembly for a file
+src/Command/fill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/fill.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/fill.cpp.s
+.PHONY : src/Command/fill.cpp.s
+
 src/Command/h_mirror.o: src/Command/h_mirror.cpp.o
 .PHONY : src/Command/h_mirror.o
 
@@ -902,6 +929,9 @@ help:
 	@echo "... src/Command/add.o"
 	@echo "... src/Command/add.i"
 	@echo "... src/Command/add.s"
+	@echo "... src/Command/fill.o"
+	@echo "... src/Command/fill.i"
+	@echo "... src/Command/fill.s"
 	@echo "... src/Command/h_mirror.o"
 	@echo "... src/Command/h_mirror.i"
 	@echo "... src/Command/h_mirror.s"

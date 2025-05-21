@@ -1,5 +1,3 @@
-// done by tiago
-
 #ifndef PROJECT_COMMAND_SLIDE_HPP
 #define PROJECT_COMMAND_SLIDE_HPP
 
@@ -12,7 +10,7 @@ namespace prog {
     namespace command {
         class Slide : public Command {
             public:
-                Slide(int offsetx, int offsety);
+                Slide(int offsetx, int offsety); // construtor
                 Image* apply(Image* img) override;
                 string toString() const override;
 

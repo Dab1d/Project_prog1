@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o.d"
   "CMakeFiles/runscrim.dir/src/Command/add.cpp.o"
   "CMakeFiles/runscrim.dir/src/Command/add.cpp.o.d"
+  "CMakeFiles/runscrim.dir/src/Command/fill.cpp.o"
+  "CMakeFiles/runscrim.dir/src/Command/fill.cpp.o.d"
   "CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o"
   "CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o.d"
   "CMakeFiles/runscrim.dir/src/Command/move.cpp.o"
