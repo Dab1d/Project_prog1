@@ -1,5 +1,3 @@
-// feito megaman 15/5
-
 #ifndef MOVE_COMMAND_HEADER
 #define MOVE_COMMAND_HEADER
 
@@ -7,17 +5,18 @@
 #include "Color.hpp"
 #include <string>
 
+using namespace std;
+
 namespace prog {
     namespace command {
         class move : public Command {
             public:
-                move(int offsetx, int offsety);
+                move(int offsetx, int offsety); // construtor
                 Image* apply(Image* img) override;
-                std::string toString() const override;
+                string toString() const override;
 
             private:
-                int offsetx;
-                int offsety;
+                int offsetx, offsety;
         };
     }
 }

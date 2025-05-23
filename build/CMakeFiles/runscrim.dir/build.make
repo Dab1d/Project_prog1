@@ -111,10 +111,38 @@ CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Blank.cpp -o CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: /home/megaman/Project_prog1/src/Command/Crop.cpp
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o -c /home/megaman/Project_prog1/src/Command/Crop.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/Crop.cpp > CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Crop.cpp -o CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: /home/megaman/Project_prog1/src/Command/Invert.cpp
+CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o -c /home/megaman/Project_prog1/src/Command/Invert.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Invert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Invert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/Invert.cpp > CMakeFiles/runscrim.dir/src/Command/Invert.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Invert.cpp -o CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: /home/megaman/Project_prog1/src/Command/Open.cpp
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Open.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Open.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Open.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Open.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Open.cpp.o -c /home/megaman/Project_prog1/src/Command/Open.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.i: cmake_force
@@ -125,10 +153,24 @@ CMakeFiles/runscrim.dir/src/Command/Open.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Open.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Open.cpp -o CMakeFiles/runscrim.dir/src/Command/Open.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: /home/megaman/Project_prog1/src/Command/Replace.cpp
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o -c /home/megaman/Project_prog1/src/Command/Replace.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/Replace.cpp > CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Replace.cpp -o CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: /home/megaman/Project_prog1/src/Command/Save.cpp
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -c /home/megaman/Project_prog1/src/Command/Save.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.i: cmake_force
@@ -139,10 +181,38 @@ CMakeFiles/runscrim.dir/src/Command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Save.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Save.cpp -o CMakeFiles/runscrim.dir/src/Command/Save.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: /home/megaman/Project_prog1/src/Command/Slide.cpp
+CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o -c /home/megaman/Project_prog1/src/Command/Slide.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Slide.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Slide.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/Slide.cpp > CMakeFiles/runscrim.dir/src/Command/Slide.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Slide.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Slide.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/Slide.cpp -o CMakeFiles/runscrim.dir/src/Command/Slide.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o: /home/megaman/Project_prog1/src/Command/To_gray_scale.cpp
+CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o -c /home/megaman/Project_prog1/src/Command/To_gray_scale.cpp
+
+CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/To_gray_scale.cpp > CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/To_gray_scale.cpp -o CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/add.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/add.cpp.o: /home/megaman/Project_prog1/src/Command/add.cpp
 CMakeFiles/runscrim.dir/src/Command/add.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/runscrim.dir/src/Command/add.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/Command/add.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/add.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/add.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/add.cpp.o -c /home/megaman/Project_prog1/src/Command/add.cpp
 
 CMakeFiles/runscrim.dir/src/Command/add.cpp.i: cmake_force
@@ -153,24 +223,38 @@ CMakeFiles/runscrim.dir/src/Command/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/add.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/add.cpp -o CMakeFiles/runscrim.dir/src/Command/add.cpp.s
 
-CMakeFiles/runscrim.dir/src/Command/invert.cpp.o: CMakeFiles/runscrim.dir/flags.make
-CMakeFiles/runscrim.dir/src/Command/invert.cpp.o: /home/megaman/Project_prog1/src/Command/invert.cpp
-CMakeFiles/runscrim.dir/src/Command/invert.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Command/invert.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/invert.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/invert.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/invert.cpp.o -c /home/megaman/Project_prog1/src/Command/invert.cpp
+CMakeFiles/runscrim.dir/src/Command/fill.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/fill.cpp.o: /home/megaman/Project_prog1/src/Command/fill.cpp
+CMakeFiles/runscrim.dir/src/Command/fill.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Command/fill.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/fill.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/fill.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/fill.cpp.o -c /home/megaman/Project_prog1/src/Command/fill.cpp
 
-CMakeFiles/runscrim.dir/src/Command/invert.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/invert.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/invert.cpp > CMakeFiles/runscrim.dir/src/Command/invert.cpp.i
+CMakeFiles/runscrim.dir/src/Command/fill.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/fill.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/fill.cpp > CMakeFiles/runscrim.dir/src/Command/fill.cpp.i
 
-CMakeFiles/runscrim.dir/src/Command/invert.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/invert.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/invert.cpp -o CMakeFiles/runscrim.dir/src/Command/invert.cpp.s
+CMakeFiles/runscrim.dir/src/Command/fill.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/fill.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/fill.cpp -o CMakeFiles/runscrim.dir/src/Command/fill.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o: /home/megaman/Project_prog1/src/Command/h_mirror.cpp
+CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o -c /home/megaman/Project_prog1/src/Command/h_mirror.cpp
+
+CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/h_mirror.cpp > CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/h_mirror.cpp -o CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.s
 
 CMakeFiles/runscrim.dir/src/Command/move.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/move.cpp.o: /home/megaman/Project_prog1/src/Command/move.cpp
 CMakeFiles/runscrim.dir/src/Command/move.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Command/move.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/Command/move.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/move.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/move.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/move.cpp.o -c /home/megaman/Project_prog1/src/Command/move.cpp
 
 CMakeFiles/runscrim.dir/src/Command/move.cpp.i: cmake_force
@@ -181,52 +265,80 @@ CMakeFiles/runscrim.dir/src/Command/move.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/move.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/move.cpp -o CMakeFiles/runscrim.dir/src/Command/move.cpp.s
 
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.o: CMakeFiles/runscrim.dir/flags.make
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.o: /home/megaman/Project_prog1/src/Command/replace.cpp
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/Command/replace.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/replace.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/replace.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/replace.cpp.o -c /home/megaman/Project_prog1/src/Command/replace.cpp
+CMakeFiles/runscrim.dir/src/Command/resize.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/resize.cpp.o: /home/megaman/Project_prog1/src/Command/resize.cpp
+CMakeFiles/runscrim.dir/src/Command/resize.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Command/resize.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/resize.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/resize.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/resize.cpp.o -c /home/megaman/Project_prog1/src/Command/resize.cpp
 
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/replace.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/replace.cpp > CMakeFiles/runscrim.dir/src/Command/replace.cpp.i
+CMakeFiles/runscrim.dir/src/Command/resize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/resize.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/resize.cpp > CMakeFiles/runscrim.dir/src/Command/resize.cpp.i
 
-CMakeFiles/runscrim.dir/src/Command/replace.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/replace.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/replace.cpp -o CMakeFiles/runscrim.dir/src/Command/replace.cpp.s
+CMakeFiles/runscrim.dir/src/Command/resize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/resize.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/resize.cpp -o CMakeFiles/runscrim.dir/src/Command/resize.cpp.s
 
-CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: CMakeFiles/runscrim.dir/flags.make
-CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: /home/megaman/Project_prog1/src/Command/slide.cpp
-CMakeFiles/runscrim.dir/src/Command/slide.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/Command/slide.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/slide.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/slide.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/slide.cpp.o -c /home/megaman/Project_prog1/src/Command/slide.cpp
+CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o: /home/megaman/Project_prog1/src/Command/rotate_left.cpp
+CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o -c /home/megaman/Project_prog1/src/Command/rotate_left.cpp
 
-CMakeFiles/runscrim.dir/src/Command/slide.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/slide.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/slide.cpp > CMakeFiles/runscrim.dir/src/Command/slide.cpp.i
+CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/rotate_left.cpp > CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.i
 
-CMakeFiles/runscrim.dir/src/Command/slide.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/slide.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/slide.cpp -o CMakeFiles/runscrim.dir/src/Command/slide.cpp.s
+CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/rotate_left.cpp -o CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.s
 
-CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/runscrim.dir/flags.make
-CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o: /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
-CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o -c /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp
+CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o: /home/megaman/Project_prog1/src/Command/rotate_right.cpp
+CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o -c /home/megaman/Project_prog1/src/Command/rotate_right.cpp
 
-CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp > CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.i
+CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/rotate_right.cpp > CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.i
 
-CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/to_gray_scale.cpp -o CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.s
+CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/rotate_right.cpp -o CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o: /home/megaman/Project_prog1/src/Command/scaleup.cpp
+CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o -c /home/megaman/Project_prog1/src/Command/scaleup.cpp
+
+CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/scaleup.cpp > CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/scaleup.cpp -o CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o: /home/megaman/Project_prog1/src/Command/v_mirror.cpp
+CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o -c /home/megaman/Project_prog1/src/Command/v_mirror.cpp
+
+CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/megaman/Project_prog1/src/Command/v_mirror.cpp > CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/megaman/Project_prog1/src/Command/v_mirror.cpp -o CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.s
 
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Image.cpp.o: /home/megaman/Project_prog1/src/Image.cpp
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Image.cpp.o -MF CMakeFiles/runscrim.dir/src/Image.cpp.o.d -o CMakeFiles/runscrim.dir/src/Image.cpp.o -c /home/megaman/Project_prog1/src/Image.cpp
 
 CMakeFiles/runscrim.dir/src/Image.cpp.i: cmake_force
@@ -240,7 +352,7 @@ CMakeFiles/runscrim.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: /home/megaman/Project_prog1/src/Logger.cpp
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Logger.cpp.o -MF CMakeFiles/runscrim.dir/src/Logger.cpp.o.d -o CMakeFiles/runscrim.dir/src/Logger.cpp.o -c /home/megaman/Project_prog1/src/Logger.cpp
 
 CMakeFiles/runscrim.dir/src/Logger.cpp.i: cmake_force
@@ -254,7 +366,7 @@ CMakeFiles/runscrim.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: /home/megaman/Project_prog1/src/PNG.cpp
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/PNG.cpp.o -MF CMakeFiles/runscrim.dir/src/PNG.cpp.o.d -o CMakeFiles/runscrim.dir/src/PNG.cpp.o -c /home/megaman/Project_prog1/src/PNG.cpp
 
 CMakeFiles/runscrim.dir/src/PNG.cpp.i: cmake_force
@@ -268,7 +380,7 @@ CMakeFiles/runscrim.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: /home/megaman/Project_prog1/src/Scrim.cpp
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Scrim.cpp.o -MF CMakeFiles/runscrim.dir/src/Scrim.cpp.o.d -o CMakeFiles/runscrim.dir/src/Scrim.cpp.o -c /home/megaman/Project_prog1/src/Scrim.cpp
 
 CMakeFiles/runscrim.dir/src/Scrim.cpp.i: cmake_force
@@ -282,7 +394,7 @@ CMakeFiles/runscrim.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: /home/megaman/Project_prog1/src/ScrimParser.cpp
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -MF CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -c /home/megaman/Project_prog1/src/ScrimParser.cpp
 
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.i: cmake_force
@@ -296,7 +408,7 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: /home/megaman/Project_prog1/src/Utils.cpp
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Utils.cpp.o -MF CMakeFiles/runscrim.dir/src/Utils.cpp.o.d -o CMakeFiles/runscrim.dir/src/Utils.cpp.o -c /home/megaman/Project_prog1/src/Utils.cpp
 
 CMakeFiles/runscrim.dir/src/Utils.cpp.i: cmake_force
@@ -310,7 +422,7 @@ CMakeFiles/runscrim.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: /home/megaman/Project_prog1/main/RunScrim.cpp
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -MF CMakeFiles/runscrim.dir/main/RunScrim.cpp.o.d -o CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -c /home/megaman/Project_prog1/main/RunScrim.cpp
 
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.i: cmake_force
@@ -326,14 +438,22 @@ runscrim_OBJECTS = \
 "CMakeFiles/runscrim.dir/src/Color.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Open.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/add.cpp.o" \
-"CMakeFiles/runscrim.dir/src/Command/invert.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/fill.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/move.cpp.o" \
-"CMakeFiles/runscrim.dir/src/Command/replace.cpp.o" \
-"CMakeFiles/runscrim.dir/src/Command/slide.cpp.o" \
-"CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/resize.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Image.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Logger.cpp.o" \
 "CMakeFiles/runscrim.dir/src/PNG.cpp.o" \
@@ -348,14 +468,22 @@ runscrim_EXTERNAL_OBJECTS =
 runscrim: CMakeFiles/runscrim.dir/src/Color.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Open.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Save.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/To_gray_scale.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/add.cpp.o
-runscrim: CMakeFiles/runscrim.dir/src/Command/invert.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/fill.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/h_mirror.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/move.cpp.o
-runscrim: CMakeFiles/runscrim.dir/src/Command/replace.cpp.o
-runscrim: CMakeFiles/runscrim.dir/src/Command/slide.cpp.o
-runscrim: CMakeFiles/runscrim.dir/src/Command/to_gray_scale.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/resize.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/rotate_left.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/rotate_right.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/scaleup.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/v_mirror.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Image.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Logger.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/PNG.cpp.o
@@ -365,7 +493,7 @@ runscrim: CMakeFiles/runscrim.dir/src/Utils.cpp.o
 runscrim: CMakeFiles/runscrim.dir/main/RunScrim.cpp.o
 runscrim: CMakeFiles/runscrim.dir/build.make
 runscrim: CMakeFiles/runscrim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable runscrim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/megaman/Project_prog1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable runscrim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runscrim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

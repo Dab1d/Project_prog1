@@ -1,29 +1,33 @@
-// feito pelo MegaMan(Tiago Ribeiro) en lo dia 12 del 5
-
 #include "Command/Slide.hpp"
 #include <sstream>
 
 namespace prog {
     namespace command {
 
-        Slide::Slide(int offset_x, int offset_y)
-            : Command("Slide"), x_offset(offset_x), y_offset(offset_y) {}
+        Slide::Slide(int offsetx, int offsety)
+            : Command("Slide"), offsetx(offsetx), offsety(offsety) {}
 
+        // vai buscar a largura e altura originais
         Image* Slide::apply(Image* img) {
-            int larg = img->width();
-            int alt = img->height();
+            int w = img->width();
+            int h = img->height();
 
-            Image* result = new Image(larg, alt);
+            // nova imagem vazia, usando pointer
+            Image* result = new Image(w, h);
 
-            for (int y = 0; y < alt; y++) {
-                for (int x = 0; x < larg; x++) {
-                    int novo_x = (x + x_offset) % larg;
-                    int novo_y = (y + y_offset) % alt;
+            for (int y = 0; y < h; y++) {
+                for (int x = 0; x < w; x++) {
+                    int novox = (x + offsetx) % w;
+                    int novoy = (y + offsety) % h;
 
-                    if (novo_x < 0) novo_x += larg;
-                    if (novo_y < 0) novo_y += alt;
+                    if (novox < 0){
+                        novox += w;
+                    }
+                    if (novoy < 0){
+                        novoy += h;
+                    }
 
-                    result->at(novo_x, novo_y) = img->at(x, y);
+                    result->at(novox, novoy) = img->at(x, y);
                 }
             }
 
@@ -31,9 +35,9 @@ namespace prog {
             return result;
         }
 
-        std::string Slide::toString() const {
-            return "Slide" + std::to_string(x_offset) + " " + std::to_string(y_offset);
+        // retorna os offsets usados para deslizar a imagem
+        string Slide::toString() const {
+            return "Slide " + to_string(offsetx) + " " + to_string(offsety);
         }
-
-    } // namespace command
-} // namespace prog
+    }
+}

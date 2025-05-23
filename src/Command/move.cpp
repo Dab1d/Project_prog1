@@ -1,5 +1,3 @@
-// feito por MegaMan em 15/5
-
 #include "Command/move.hpp"
 #include "Image.hpp"
 #include "Color.hpp"
@@ -8,25 +6,26 @@
 namespace prog {
     namespace command {
 
-        move::move(int offsetx, int offsety)
+        move::move(int offsetx, int offsety) // construtor
             : Command("move"), offsetx(offsetx), offsety(offsety) {}
 
         Image* move::apply(Image* img) {
-            int largura = img->width();
-            int altura = img->height();
+            // dimensões da imagem
+            int w = img->width();
+            int h = img->height();
 
-            // meter o pixel 0,0 como fill
+            // usa o pixel (0, 0) como cor fill
             Color fill = img->at(0, 0);
-            Image* result = new Image(largura, altura, fill);
+            Image* result = new Image(w, h, fill);
 
-            // copiar os pixeis da og e colar na clone
-            for (int y = 0; y < altura; ++y) {
-                for (int x = 0; x < largura; ++x) {
-                    int novox = x + offsetx;
-                    int novoy = y + offsety;
+            for (int y = 0; y < h; ++y) {
+                for (int x = 0; x < w; ++x) {
+                    int newx = x + offsetx;
+                    int newy = y + offsety;
 
-                    if (novox < largura && novoy < altura) {
-                        result->at(novox, novoy) = img->at(x, y);
+                    // copia o pixel se a nova posição estiver dentro dos limites da imagem
+                    if (newx >= 0 && newx < w && newy >= 0 && newy < h) {
+                        result->at(newx, newy) = img->at(x, y);
                     }
                 }
             }
@@ -35,8 +34,9 @@ namespace prog {
             return result;
         }
 
-        std::string move::toString() const {
-            return "move " + std::to_string(offsetx) + " " + std::to_string(offsety);
+        // retorna o comando move e os seus valores offset como strings
+        string move::toString() const {
+            return "move " + to_string(offsetx) + " " + to_string(offsety);
         }
     }
 }

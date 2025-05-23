@@ -146,25 +146,37 @@ Applying command 'add output/extra3-tmp1.png 0 0 0 0 800'
 Applying command 'add output/extra3-tmp2.png 0 0 0 772 800'
 Applying command 'Save filename:output/extra3.png'
 >>> [25] extra4 <<<
-Command not recognized: 'fill'
-Error while parsing command
-Scrim parse failed
+Applying command 'Blank w:750 h:380 fill:0:0:0'
+Applying command 'fill'
+Applying command 'add input/lion.png 255 255 255 0 0'
+Applying command 'fill'
+Applying command 'add input/lion.png 255 255 255 250 0'
+Applying command 'fill'
+Applying command 'add input/lion.png 255 255 255 500 0'
+Applying command 'Save filename:output/extra4.png'
 >>> [26] fill1 <<<
-Command not recognized: 'fill'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/unionjack.png'
+Applying command 'fill'
+Applying command 'Save filename:output/fill1.png'
 >>> [27] fill2 <<<
-Command not recognized: 'fill'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/unionjack.png'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'Save filename:output/fill2.png'
 >>> [28] fill3 <<<
-Command not recognized: 'fill'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/unionjack.png'
+Applying command 'fill'
+Applying command 'Save filename:output/fill3.png'
 >>> [29] fill4 <<<
-Command not recognized: 'fill'
-Error while parsing command
-Scrim parse failed
+Applying command 'Blank w:300 h:300 fill:255:0:0'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'fill'
+Applying command 'Save filename:output/fill4.png'
 >>> [30] h_mirror1 <<<
 Applying command 'Open filename:input/symmetric.png'
 Applying command 'h_mirror'
@@ -294,19 +306,19 @@ Applying command 'scaleup factors => 1 , 1'
 Applying command 'Save filename:output/scaleup4.png'
 >>> [59] slide1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 0'
+Applying command 'Slide 125 0'
 Applying command 'Save filename:output/slide1.png'
 >>> [60] slide2 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide0 190'
+Applying command 'Slide 0 190'
 Applying command 'Save filename:output/slide2.png'
 >>> [61] slide3 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide125 190'
+Applying command 'Slide 125 190'
 Applying command 'Save filename:output/slide3.png'
 >>> [62] slide4 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'Slide250 380'
+Applying command 'Slide 250 380'
 Applying command 'Save filename:output/slide4.png'
 >>> [63] to_gray_scale1 <<<
 Applying command 'Open filename:input/pacman.png'

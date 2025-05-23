@@ -3,34 +3,35 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES_BASE at CMakeLists.txt:18 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/2006d/Desktop/project/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/2006d/Desktop/project/src/Color.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Blank.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Crop.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Invert.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Open.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Replace.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Save.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/Slide.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/To_gray_scale.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/add.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/h_mirror.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/move.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/resize.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/rotate_left.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/rotate_right.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/scaleup.cpp"
-  "C:/Users/2006d/Desktop/project/src/Command/v_mirror.cpp"
-  "C:/Users/2006d/Desktop/project/src/Image.cpp"
-  "C:/Users/2006d/Desktop/project/src/Logger.cpp"
-  "C:/Users/2006d/Desktop/project/src/PNG.cpp"
-  "C:/Users/2006d/Desktop/project/src/Scrim.cpp"
-  "C:/Users/2006d/Desktop/project/src/ScrimParser.cpp"
-  "C:/Users/2006d/Desktop/project/src/Utils.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Color.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Blank.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Crop.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Invert.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Open.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Replace.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Save.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/Slide.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/To_gray_scale.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/add.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/fill.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/h_mirror.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/move.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/resize.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/rotate_left.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/rotate_right.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/scaleup.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Command/v_mirror.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Image.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Logger.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/PNG.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Scrim.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/ScrimParser.cpp"
+  "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/src/Utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/2006d/Desktop/project/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Eduardo/Desktop/ProjProg/Project_prog1/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

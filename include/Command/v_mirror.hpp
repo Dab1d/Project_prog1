@@ -1,7 +1,3 @@
-//
-// Created by Eduardo on 15/05/2025.
-//
-
 #ifndef VMIRROR_HPP
 #define VMIRROR_HPP
 #include "Image.hpp"
@@ -17,6 +13,7 @@ namespace prog {
 
             Image* apply(Image* base_img) override;
 
+            std::string toString() const override;
         };
     }
 }

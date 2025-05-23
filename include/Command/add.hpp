@@ -1,5 +1,3 @@
-// fieto por megaman no dia 14del5
-
 #ifndef ADD_COMMAND_HEADER
 #define ADD_COMMAND_HEADER
 
@@ -7,21 +5,21 @@
 #include "Color.hpp"
 #include <string>
 
+using namespace std;
+
 namespace prog {
     namespace command {
-
         class add : public Command {
         public:
-            add(const std::string& file_path, const Color& ignore_color, int pos_x, int pos_y);
+            add(const string& file_path, const Color& ignore_color, int posx, int posy); // construtor
             Image* apply(Image* base_img) override;
-            std::string toString() const override;
+            string toString() const override;
 
         private:
-            std::string file_path;
+            string file_path;
             Color ignore_color;
-            int pos_x, pos_y;
+            int posx, posy;
         };
     }
 }
-
 #endif

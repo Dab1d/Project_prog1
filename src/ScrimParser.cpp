@@ -15,8 +15,9 @@
 #include "Command/add.hpp"
 #include "Command/move.hpp"
 #include "Command/h_mirror.hpp"
-#include "Command/scaleup.hpp"
 #include "Command/v_mirror.hpp"
+#include "Command/fill.h"
+#include "Command/scaleup.hpp"
 #include "Command/rotate_left.h"
 #include "Command/rotate_right.h"
 #include "Command/resize.h"
@@ -96,9 +97,9 @@ namespace prog {
         }
 
         if (command_name == "slide") {
-            int x_offset,y_offset;
-            input >> x_offset >> y_offset;
-            return   new command::Slide(x_offset, y_offset);
+            int offsetx, offsety;
+            input >> offsetx >> offsety;
+            return   new command::Slide(offsetx, offsety);
         }
 
         if (command_name == "invert") {
@@ -116,17 +117,15 @@ namespace prog {
         }
 
         if (command_name == "add") {
-            std::string fname;
-            int red, green, blue;
-            int pos_x = 0, pos_y = 0;
-            input >> fname >> red >> green >> blue >> pos_x >> pos_y;
+            string fname;
+            int red, green, blue, posx, posy;
+            input >> fname >> red >> green >> blue >> posx >> posy;
             Color filter_color{
                 static_cast<rgb_value>(red),
                 static_cast<rgb_value>(green),
                 static_cast<rgb_value>(blue)
             };
-            auto* cmd = new command::add(fname, filter_color, pos_x, pos_y);
-            return cmd;
+            return new command::add(fname, filter_color, posx, posy);
         }
 
         if (command_name == "move") {
@@ -147,14 +146,20 @@ namespace prog {
             return new command::rotate_left();
         }
 
+        if (command_name == "fill") {
+            int x, y, w, h, r, g, b;
+            input >> x >> y >> w >> h >> r >> g >> b;
+            return new command::fill(x, y, w, h, r, g, b);
+        }
+
         if (command_name == "rotate_right") {
             return new command::rotate_right();
         }
 
         if (command_name == "scaleup") {
-            int larg, alt;
-            input >> larg >> alt;
-            return new command::scaleup(larg, alt);
+            int w, h;
+            input >> w >> h;
+            return new command::scaleup(w, h);
         }
 
         if (command_name == "crop") {

@@ -1,7 +1,3 @@
-//
-// Created by Eduardo on 15/05/2025.
-//
-
 #ifndef H_MIRROR_HPP
 #define H_MIRROR_HPP
 #include "Image.hpp"
@@ -16,6 +12,8 @@ namespace prog {
             ~h_mirror();
 
             Image* apply(Image* base_img) override;
+
+            std::string toString() const override;
         };
     }
 }
