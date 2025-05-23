@@ -6,40 +6,45 @@
 namespace prog {
     namespace command {
 
-        scaleup::scaleup(int factorx, int factory) // construtor
+        //Constructor: initializes scale factors for x and y
+        scaleup::scaleup(int factorx, int factory)
             : Command("scaleup"), scalex(factorx), scaley(factory) {}
 
         Image* scaleup::apply(Image* src) {
             if (!src){
-                return nullptr; //retorna nulo se a imagem for inválida
+                return nullptr; //return null if image is invalid
             }
 
-            // declaração de alturas e larguras
+            //Original image width and height
             int w = src->width();
             int h = src->height();
+            //New width and height after scaling
             int nw = w * scalex;
             int nh = h * scaley;
 
-            // nova imagem com dimensões ampliadas, usando pointers
+            //Create new image with scaled dimensions
             Image* output = new Image(nw, nh);
 
+            //Loop through each pixel of original image
             for (int j = 0; j < h; ++j) {
                 for (int i = 0; i < w; ++i) {
-                    Color c = src->at(i, j);
+                    Color c = src->at(i, j); //Get color of current pixel
                     int xx = i * scalex;
                     int yy = j * scaley;
+
+                    //Fill corresponding pixels in new image according to scale factors
                     for (int yyy = yy; yyy < yy + scaley; ++yyy) {
                         for (int xxx = xx; xxx < xx + scalex; ++xxx) {
-                            output->at(xxx, yyy) = c; // preenche os pixeis com a respetiva cor
+                            output->at(xxx, yyy) = c; //Assign color to scaled pixel block
                         }
                     }
                 }
             }
-            delete src;
-            return output;
+            delete src; //Free original image memory
+            return output; //Return scaled image
         }
 
-        // retorna os valores usados para ampliar a imagem
+        //Return string representation of scale factors
         string scaleup::toString() const {
             return "scaleup factors => " + to_string(scalex) + " , " + to_string(scaley);
         }

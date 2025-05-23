@@ -1,4 +1,3 @@
-
 #include "Command/resize.h"
 #include <sstream>
 

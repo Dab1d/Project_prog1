@@ -1,6 +1,3 @@
-//
-// Created by 2006d on 15/05/2025.
-//
 #include "Command/crop.hpp"
 #include <sstream>
 

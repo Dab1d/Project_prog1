@@ -4,46 +4,49 @@
 namespace prog {
     namespace command {
 
-        add::add(const string& file_path, const Color& ignore_color, int posx, int posy) // construtor
+        //Constructor: initializes file path, ignore color, and position
+        add::add(const string& file_path, const Color& ignore_color, int posx, int posy)
             : Command("add"), file_path(file_path), ignore_color(ignore_color),
               posx(posx), posy(posy) {}
 
         Image* add::apply(Image* base_img) {
-            Image* overlay_img = loadFromPNG(file_path); // imagem de sobreposição
+            Image* overlay_img = loadFromPNG(file_path); //Load overlay image
 
-            // dimensões da imagem base e imagem de sobreposição
+            //Get dimensions of base and overlay images
             int dest_w = base_img->width();
             int dest_h = base_img->height();
             int src_w = overlay_img->width();
             int src_h = overlay_img->height();
 
+            //Loop through each row of overlay image
             for (int sy = 0; sy < src_h; ++sy) {
+                //Loop through each column of overlay image
                 for (int sx = 0; sx < src_w; ++sx) {
-                    const Color& pixel = overlay_img->at(sx, sy);
+                    const Color& pixel = overlay_img->at(sx, sy); //Current overlay pixel
 
-                    // ignora os pixels que deve ignorar
+                    //Skip pixel if it matches the ignore color
                     if (pixel.red() == ignore_color.red() &&
                         pixel.green() == ignore_color.green() &&
                         pixel.blue() == ignore_color.blue()) {
                         continue;
                     }
 
-                    // posição de destino na imagem base
+                    //Target position in base image
                     int tx = posx + sx;
                     int ty = posy + sy;
 
-                    // copia o pixel só se estiver dentro dos limites da imagem base
+                    //Copy pixel if inside base image bounds
                     if (tx >= 0 && tx < dest_w && ty >= 0 && ty < dest_h) {
                         base_img->at(tx, ty) = pixel;
                     }
                 }
             }
 
-            delete overlay_img;
-            return base_img;
+            delete overlay_img; //Free memory
+            return base_img;    //Return updated base image
         }
 
-        // retorna a string comando e parâmetros
+        //Return command as string with parameters
         string add::toString() const {
             return "add " + file_path + " "
                    + to_string(ignore_color.red()) + " "
