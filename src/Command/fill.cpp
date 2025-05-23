@@ -1,4 +1,3 @@
-// Created by Eduardo on 16/05/2025.
 #include "Command.hpp"
 #include "Command/fill.h"
 #include <sstream>

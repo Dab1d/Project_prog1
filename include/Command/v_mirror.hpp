@@ -1,7 +1,3 @@
-//
-// Created by Eduardo on 15/05/2025.
-//
-
 #ifndef VMIRROR_HPP
 #define VMIRROR_HPP
 #include "Image.hpp"
