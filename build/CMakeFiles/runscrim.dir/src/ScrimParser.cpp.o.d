@@ -183,4 +183,5 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /home/megaman/Project_prog1/include/Command/scaleup.hpp \
  /home/megaman/Project_prog1/include/Command/rotate_left.h \
  /home/megaman/Project_prog1/include/Command/rotate_right.h \
- /home/megaman/Project_prog1/include/Command/resize.h
+ /home/megaman/Project_prog1/include/Command/resize.h \
+ /home/megaman/Project_prog1/include/Command/chain.hpp

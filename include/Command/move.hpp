@@ -11,7 +11,7 @@ namespace prog {
     namespace command {
         class move : public Command {
             public:
-                move(int offsetx, int offsety); // construtor
+                move(int offsetx, int offsety); // constructor
                 Image* apply(Image* img) override;
                 string toString() const override;
 

@@ -8,9 +8,9 @@ namespace prog {
     namespace command {
         class fill : public Command {
         public:
-            fill(int x, int y, int w, int h, rgb_value red, rgb_value green, rgb_value blue);
+            fill(int x, int y, int w, int h, rgb_value red, rgb_value green, rgb_value blue); // constructor
 
-            ~fill();
+            ~fill(); // destructor
 
             Image* apply(Image* base_img) override;
 
@@ -22,4 +22,4 @@ namespace prog {
     }
 }
 
-#endif // FILL_H
+#endif

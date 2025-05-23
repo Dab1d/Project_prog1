@@ -1,6 +1,3 @@
-//
-// Created by 2006d on 15/05/2025.
-//
 #ifndef ROTATE_RIGHT_H
 #define ROTATE_RIGHT_H
 #include "Image.hpp"
@@ -11,9 +8,9 @@ namespace prog {
 
         class rotate_right : public Command {
         public:
-            rotate_right();
+            rotate_right(); // constructor
 
-            ~rotate_right();
+            ~rotate_right(); // destructor
 
             Image* apply(Image* base_img) override;
 
@@ -21,4 +18,4 @@ namespace prog {
         };
     }
 }
-#endif //ROTATE_RIGHT_H
+#endif

@@ -1,7 +1,3 @@
-//
-// Created by 2006d on 12/05/2025.
-//
-
 #ifndef INVERT_H
 #define INVERT_H
 
@@ -12,9 +8,9 @@ namespace prog {
     namespace command {
         class Invert : public Command {
         public:
-            Invert();
+            Invert(); // constructor
 
-            ~Invert();
+            ~Invert(); // destructor
 
             Image *apply(Image *img) override;
 
@@ -24,4 +20,4 @@ namespace prog {
 }
 
 
-#endif //INVERT_H
+#endif

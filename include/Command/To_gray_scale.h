@@ -1,7 +1,3 @@
-//
-// Created by David on 15-05-2025.
-//
-
 #ifndef TO_GRAY_SCALE_HPP
 #define TO_GRAY_SCALE_HPP
 #include "Image.hpp"
@@ -14,9 +10,9 @@ namespace prog {
     class To_gray_scale : public Command {
         public:
 
-        To_gray_scale();
+        To_gray_scale(); // constructor
 
-        ~To_gray_scale();
+        ~To_gray_scale(); // destructor
 
         Image* apply(Image* base_img) override;
 
@@ -24,4 +20,4 @@ namespace prog {
     };
     }
 }
-#endif //TO_GRAY_SCALE_HPP
+#endif

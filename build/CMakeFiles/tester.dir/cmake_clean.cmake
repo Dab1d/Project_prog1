@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tester.dir/src/Command/To_gray_scale.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/add.cpp.o"
   "CMakeFiles/tester.dir/src/Command/add.cpp.o.d"
+  "CMakeFiles/tester.dir/src/Command/chain.cpp.o"
+  "CMakeFiles/tester.dir/src/Command/chain.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/fill.cpp.o"
   "CMakeFiles/tester.dir/src/Command/fill.cpp.o.d"
   "CMakeFiles/tester.dir/src/Command/h_mirror.cpp.o"

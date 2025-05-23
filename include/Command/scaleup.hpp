@@ -11,7 +11,7 @@ namespace prog {
     namespace command {
         class scaleup : public Command {
         public:
-            scaleup(int factorx, int factory); // construtor
+            scaleup(int factorx, int factory); // constructor
             Image* apply(Image* src) override;
             string toString() const override;
 

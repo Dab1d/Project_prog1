@@ -21,7 +21,7 @@
 #include "Command/rotate_left.h"
 #include "Command/rotate_right.h"
 #include "Command/resize.h"
-#include "Command/chain.h"
+#include "Command/chain.hpp"
 
 
 #include <fstream>
@@ -175,16 +175,16 @@ namespace prog {
             return new command::resize(x,y,w,h);
         }
 
-        if (command_name == "chain") {
-            // variavel de input e lista para guardar os inputs
-            string x;
-            vector<string> list;
-            // lê o input e adiciona à lista
-            while (input >> x && x != "end") {
-                list.push_back(x);
-            }
-            return new command::chain(list);
-        }
+		if (command_name == "chain") {
+    		// input variable and list of inputs
+    		string x;
+    		vector<string> list;
+    		// reads the input and adds it to the list
+    		while (input >> x && x != "end") {
+        		list.push_back(x);
+    		}
+    		return new command::chain(list);
+		}
 
         // TODO: implement cases for the new commands
 

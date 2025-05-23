@@ -501,6 +501,33 @@ src/Command/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/add.cpp.s
 .PHONY : src/Command/add.cpp.s
 
+src/Command/chain.o: src/Command/chain.cpp.o
+.PHONY : src/Command/chain.o
+
+# target to build an object file
+src/Command/chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.o
+.PHONY : src/Command/chain.cpp.o
+
+src/Command/chain.i: src/Command/chain.cpp.i
+.PHONY : src/Command/chain.i
+
+# target to preprocess a source file
+src/Command/chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.i
+.PHONY : src/Command/chain.cpp.i
+
+src/Command/chain.s: src/Command/chain.cpp.s
+.PHONY : src/Command/chain.s
+
+# target to generate assembly for a file
+src/Command/chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/chain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/chain.cpp.s
+.PHONY : src/Command/chain.cpp.s
+
 src/Command/fill.o: src/Command/fill.cpp.o
 .PHONY : src/Command/fill.o
 
@@ -929,6 +956,9 @@ help:
 	@echo "... src/Command/add.o"
 	@echo "... src/Command/add.i"
 	@echo "... src/Command/add.s"
+	@echo "... src/Command/chain.o"
+	@echo "... src/Command/chain.i"
+	@echo "... src/Command/chain.s"
 	@echo "... src/Command/fill.o"
 	@echo "... src/Command/fill.i"
 	@echo "... src/Command/fill.s"

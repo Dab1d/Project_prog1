@@ -10,7 +10,7 @@ namespace prog {
     namespace command {
         class Slide : public Command {
             public:
-                Slide(int offsetx, int offsety); // construtor
+                Slide(int offsetx, int offsety); // constructor
                 Image* apply(Image* img) override;
                 string toString() const override;
 

@@ -1,7 +1,3 @@
-//
-// Created by David on 15/05/2025.
-//
-
 #ifndef CROP_HPP
 #define CROP_HPP
 #include <string>
@@ -12,9 +8,9 @@ namespace prog {
         class crop: public Command {
 
         public:
-            crop(int x,int y, int w, int h);
+            crop(int x,int y, int w, int h); // constructor
 
-            ~crop();
+            ~crop(); // destructor
 
             Image *apply(Image *img) override;
 
@@ -24,4 +20,4 @@ namespace prog {
         };
     }
 }
-#endif //CROP_HPP
+#endif

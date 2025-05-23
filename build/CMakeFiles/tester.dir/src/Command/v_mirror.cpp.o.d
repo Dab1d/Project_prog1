@@ -158,4 +158,5 @@ CMakeFiles/tester.dir/src/Command/v_mirror.cpp.o: \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
  /home/megaman/Project_prog1/include/Command/v_mirror.hpp \
- /home/megaman/Project_prog1/include/Image.hpp
+ /home/megaman/Project_prog1/include/Image.hpp \
+ /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc

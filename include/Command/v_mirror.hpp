@@ -7,9 +7,9 @@ namespace prog {
     namespace command {
         class v_mirror : public Command {
           public:
-            v_mirror();
+            v_mirror(); // constructor
 
-            ~v_mirror();
+            ~v_mirror(); // destructor
 
             Image* apply(Image* base_img) override;
 
@@ -17,4 +17,4 @@ namespace prog {
         };
     }
 }
-#endif //V_MIRROR_H
+#endif

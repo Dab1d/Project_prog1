@@ -7,9 +7,9 @@ namespace prog {
     namespace command {
         class h_mirror : public Command {
         public:
-            h_mirror();
+            h_mirror(); //constructor
 
-            ~h_mirror();
+            ~h_mirror(); //destructor
 
             Image* apply(Image* base_img) override;
 
@@ -17,4 +17,4 @@ namespace prog {
         };
     }
 }
-#endif //H_MIRROR_HPP
+#endif

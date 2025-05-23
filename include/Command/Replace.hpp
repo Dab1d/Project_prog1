@@ -1,7 +1,3 @@
-//
-// Created by Davidf on 15-05-2025.
-//
-
 #ifndef REPLACE_HPP
 #define REPLACE_HPP
 #include "Image.hpp"
@@ -13,9 +9,9 @@ namespace prog {
 
         class Replace : public Command {
         public:
-            Replace(rgb_value r1,rgb_value g1,rgb_value b1,rgb_value r2,rgb_value g2,rgb_value b2);
+            Replace(rgb_value r1,rgb_value g1,rgb_value b1,rgb_value r2,rgb_value g2,rgb_value b2); // constructor
 
-            ~Replace();
+            ~Replace(); // destructor
 
             Image* apply(Image* base_img) override;
             std::string toString() const override;
@@ -25,4 +21,4 @@ namespace prog {
         };
     }
 }
-#endif //REPLACE_HPP
+#endif

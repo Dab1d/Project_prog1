@@ -1,7 +1,3 @@
-//
-// Created by 2006d on 18/05/2025.
-//
-
 #ifndef RESIZE_H
 #define RESIZE_H
 #include <string>
@@ -12,9 +8,9 @@ namespace prog {
         class resize: public Command {
 
         public:
-            resize(int x,int y, int w, int h);
+            resize(int x,int y, int w, int h); // constructor
 
-            ~resize();
+            ~resize(); //destructor
 
             Image *apply(Image *img) override;
 
@@ -24,4 +20,4 @@ namespace prog {
         };
     }
 }
-#endif //RESIZE_H
+#endif

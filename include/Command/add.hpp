@@ -11,7 +11,7 @@ namespace prog {
     namespace command {
         class add : public Command {
         public:
-            add(const string& file_path, const Color& ignore_color, int posx, int posy); // construtor
+            add(const string& file_path, const Color& ignore_color, int posx, int posy); // constructor
             Image* apply(Image* base_img) override;
             string toString() const override;
 
