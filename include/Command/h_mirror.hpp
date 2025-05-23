@@ -12,6 +12,8 @@ namespace prog {
             ~h_mirror();
 
             Image* apply(Image* base_img) override;
+
+            std::string toString() const override;
         };
     }
 }
