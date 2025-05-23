@@ -13,6 +13,7 @@ namespace prog {
 
             Image* apply(Image* base_img) override;
 
+            std::string toString() const override;
         };
     }
 }

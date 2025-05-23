@@ -1,6 +1,6 @@
 #include "Command.hpp" //Includes the base Command class header
 #include "Command/h_mirror.hpp" //Includes the header for the h_mirror command
-
+#include <sstream> //Includes the sstream library for string stream functionality
 namespace prog {
     namespace command {
 
@@ -24,6 +24,12 @@ namespace prog {
             }
             delete img; //Delete the original image to free memory
             return newImg; //Return the horizontally mirrored image
+        }
+        //Returns a string representation of the command
+        std::string h_mirror::toString() const {
+            std::ostringstream ss; //Create a string stream
+            ss << name(); //Add the command name to the stream
+            return ss.str(); //Return the string
         }
     }
 }
