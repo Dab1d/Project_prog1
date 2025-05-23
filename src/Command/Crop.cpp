@@ -13,26 +13,28 @@ namespace prog {
 
         Image *crop::apply(Image *img) {
 
-            // iteradores da nova imagem
+            // iterators for the new image
             int new_x=0,new_y = 0;
 
-            // upper bounds da nova imagem, garantido que não ultrapassam os limites anteriores
+            // upper bounds of the new image, ensuring they don't exceed the original limits
             int up_x = (x_ + w_ > img->width() )? img->width() : x_ + w_;
             int up_y = (y_ + h_ > img-> height()) ? img->height() : y_ + h_;
 
-            // nova imagem com as dimensões dadas:
+            // new image with new dimensions
             Image *newImg = new Image(up_x - x_,up_y -y_);
 
-            // loop que percorre a secção da imagem orginal e copia para a nova
+            // loop that cross the selected portion of the original image
+            // and copies it into the new one, starting at the given coordinates
             for (int y = y_ ;y  < up_y;y++) {
                 for (int x = x_; x < up_x ;x++) {
+                    //get the color to copy in the new image
                     newImg -> at(new_x,new_y ) = img -> at(x,y);
                     new_x++;
                 }
                 new_x=0;
                 new_y++;
             }
-
+            // to prevent iamge leaks
             delete img;
             return newImg;
         }

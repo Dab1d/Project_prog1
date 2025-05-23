@@ -4,16 +4,20 @@
 using std::istream;
 
 namespace prog {
-    //constructor default (preto)
-    Color::Color(): red_(0), green_(0),blue_(0){
+    // Default constructor (black)
+    Color::Color() : red_(0), green_(0), blue_(0) {
     }
-    //constructor de cópia (com valores predefinidos)
-    Color::Color(const Color &other): red_(other.red_), green_(other.green_), blue_(other.blue_) {
+
+    // Copy constructor (copies predefined values)
+    Color::Color(const Color &other) : red_(other.red_), green_(other.green_), blue_(other.blue_) {
     }
-    // constructor sem valores predefenidos
-    Color::Color(rgb_value red, rgb_value green, rgb_value blue):red_(red),green_(green),blue_(blue) {
+
+    // Constructor with custom values
+    Color::Color(rgb_value red, rgb_value green, rgb_value blue)
+        : red_(red), green_(green), blue_(blue) {
     }
-    //ler valores de RGB constantes
+
+    // Only read accessors for RGB values
     rgb_value Color::red() const {
         return red_;
     }
@@ -26,7 +30,7 @@ namespace prog {
         return blue_;
     }
 
-    //valores RBG que podem sofrer alterações
+    // Mutable accessors for RGB values
     rgb_value &Color::red() {
         return red_;
     }
@@ -40,8 +44,7 @@ namespace prog {
     }
 }
 
-
-// Use to read color values from a script file.
+// Used to read RGB values from a script file
 istream &operator>>(istream &input, prog::Color &c) {
     int r, g, b;
     input >> r >> g >> b;
@@ -51,7 +54,8 @@ istream &operator>>(istream &input, prog::Color &c) {
     return input;
 }
 
+// Used to write RGB values to output in the format R:G:B
 std::ostream &operator<<(std::ostream &output, const prog::Color &c) {
-    output << (int) c.red() << ":" << (int) c.green() << ":" << (int) c.blue();
+    output << (int)c.red() << ":" << (int)c.green() << ":" << (int)c.blue();
     return output;
 }

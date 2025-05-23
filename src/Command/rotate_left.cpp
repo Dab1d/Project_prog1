@@ -1,4 +1,4 @@
- //
+     //
 // Created by 2006d on 15/05/2025.
 //
 #include "Command/rotate_left.h"
@@ -12,26 +12,26 @@ namespace prog {
         rotate_left::~rotate_left() {}
 
             Image *rotate_left::apply(Image *img) {
-                //obter valores da class img
+            // Get the width and height of the original image
                 int largura = img->width();
                 int altura = img->height();
 
-                //img com dimensões trocadas
+            // New image the dimensions swap
                 Image *newImg = new Image(altura ,largura);
 
-
-                // loop para rodar para a esquerda através da matriz de rotação:
-                //
-                //    M(90º) = [cos(90°)  -sin(90°)]   [0  -1]
-                //             [sin(90°)   cos(90°)] = [1   0]
-                //
-                //  M(90º)[x',y'] ==> [-y,x]
-                //
-                // e considerando que o eixo oY aponta para baixo y' = -x,
-                //e o sistema de coordenados da imagem que começa no top left corner temos que
-                //
-                //          x'= y e y' = largura -1 -x
-
+            // Loop to perform a left (90° counterclockwise) rotation using the rotation matrix:
+            //
+            //     M(90°) = [cos(90°)  -sin(90°)]   = [0  -1]
+            //              [sin(90°)   cos(90°)]     [1   0]
+            //
+            //     Applying M(90°) to a point [x, y] gives: [-y, x]
+            //
+            // Considering that the Y-axis points downward, y = -x;
+            // and that the image coordinate system starts at the top-left corner,
+            // (shift (0,0) to (-x,0)) we have:
+            //
+            //          x' = y
+            //          y' = width - 1 - x
 
                 for (int y = 0;y < altura;y++) {
                     for (int x = 0;x < largura;x++) {
@@ -39,7 +39,7 @@ namespace prog {
                         newImg->at(y,largura-x-1) = base;
                     }
                 }
-
+            //to prevent memory leaks
                 delete img;
                 return newImg;
             }
