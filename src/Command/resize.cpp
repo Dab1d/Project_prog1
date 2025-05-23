@@ -1,6 +1,4 @@
-//
-// Created by 2006d on 18/05/2025.
-//
+
 #include "Command/resize.h"
 #include <sstream>
 
@@ -12,30 +10,32 @@ namespace prog {
         resize::~resize() {}
 
         Image *resize::apply(Image *img) {
-            // iteradores da nova imagem
+            // iterators for new image
             int new_x=0,new_y = 0;
 
-            // upper bounds da nova imagem
+            // upper bounds of the new image
             int up_x = x_ + w_;
             int up_y = y_ + h_;
 
-            // nova imagem com as dimensões dadas:
+            // new image to be return
             Image *newImg = new Image(up_x - x_,up_y -y_);
 
-            // loop que percorre a secção da imagem orginal e copia para a nova imagem
+            // Loop that copies the selected region from the original image to the new image
             for (int y = y_ ;y  < up_y;y++) {
                 for (int x = x_; x < up_x ;x++) {
-                    // se o ponto pertencer à imagem original copia, senão
-                    //o fill é aplicado automaticamente
+
+                    // If the pixel exists within the bounds of the original image, copy its color;
+                    // otherwise, fill the pixel with a default color
                     if (x < img->width() && y < img->height() ) {
                         newImg -> at(new_x,new_y ) = img -> at(x,y);
                     }
                     new_x++;
                 }
-                //reinicia o iterador de contagem da linha e passa para a seguinte
+                //reset the iterator and moves to the next colum
                 new_x=0;
                 new_y++;
             }
+            //to prevent memory leaks
             delete img;
             return newImg;
         }

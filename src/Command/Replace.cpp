@@ -1,6 +1,3 @@
-//
-// Created by 2006d on 13/05/2025.
-//
 #include "Command.hpp"
 #include "Command/Replace.hpp"
 
@@ -16,24 +13,25 @@ namespace prog {
 
         Image *Replace::apply(Image *img) {
 
-            //Nova imagem com as mesmas dimensões da original
+            // New image
             Image *newimg = new Image(img->width(),img->height());
 
-            //loop para alterar os pixeis selecionados da imagem
+            //loop from swap the colors
             for (int y = 0;y < img->height();y++) {
                 for (int x = 0;x < img->width();x++) {
-                    //Cor do pixel nas cordenadas x y
-                    Color base = img->at(x,y);
-                    // caso seja a cor selecionada para trocar
-                    if (( r1_ == base.red()) && ( g1_ == base.green()) && ( b1_ == base.blue())) {
+                    //get the color at coords x,y;
+                    Color orig = img->at(x,y);
+                    // change the color if it matches with the color given
+                    if (( r1_ == orig.red()) && ( g1_ == orig.green()) && ( b1_ == orig.blue())) {
                         newimg->at(x, y) = Color( r2_, g2_, b2_);
                     }
+                    //else do nothing
                     else {
                         newimg ->at(x,y) = img->at(x,y);
                     }
                 }
             }
-
+            //to prevent memory leaks
             delete img;
             return newimg;
         }
