@@ -1,5 +1,3 @@
-// Created by Eduardo on 16/05/2025.
-
 #ifndef FILL_H
 #define FILL_H
 
